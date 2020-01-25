@@ -9,12 +9,12 @@ using Xamarin.Forms.Xaml;
 
 namespace XamarinFormsKatas.Katas_UI.Kata_c
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class KataC : ContentPage
-	{
-		public KataC ()
-		{
-			InitializeComponent ();
-		}
-	}
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class Elemento1 : ContentPage
+    {
+        public Elemento1()
+        {
+            InitializeComponent();
+        }
+    }
 }
