@@ -12,4 +12,46 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
   </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Katas_UI\Kata_a\Kata1View.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Katas_Logic\Kata_LA\" />
+    <Folder Include="Katas_Logic\Kata_LB\" />
+    <Folder Include="Katas_Logic\Kata_LC\" />
+    <Folder Include="Katas_Logic\Kata_LD\" />
+    <Folder Include="Katas_Logic\Kata_LE\" />
+    <Folder Include="Katas_Logic\Kata_LF\" />
+    <Folder Include="Katas_Logic\Kata_LG\" />
+    <Folder Include="Katas_Logic\Kata_LH\" />
+    <Folder Include="Katas_Logic\Kata_LI\" />
+    <Folder Include="Katas_UI\Kata_b\" />
+    <Folder Include="Katas_UI\Kata_c\" />
+    <Folder Include="Katas_UI\Kata_d\" />
+    <Folder Include="Katas_UI\Kata_e\" />
+    <Folder Include="Katas_UI\Kata_j\" />
+    <Folder Include="Katas_UI\Kata_g\" />
+    <Folder Include="Katas_UI\Kata_h\" />
+    <Folder Include="Katas_UI\Kata_i\" />
+    <Folder Include="Katas_UI\Kata_f\" />
+    <Folder Include="Katas_UI\Kata_k\" />
+    <Folder Include="Katas_UI\Kata_l\" />
+    <Folder Include="Katas_UI\Kata_m\" />
+    <Folder Include="Katas_UI\Kata_n\" />
+    <Folder Include="Katas_UI\Kata_o\" />
+    <Folder Include="Katas_UI\Kata_p\" />
+    <Folder Include="Katas_UI\Kata_q\" />
+    <Folder Include="Katas_UI\Kata_r\" />
+    <Folder Include="Katas_UI\Kata_s\" />
+    <Folder Include="Katas_UI\Kata_t\" />
+    <Folder Include="Katas_UI\Kata_u\" />
+    <Folder Include="Katas_UI\Kata_v\" />
+    <Folder Include="Katas_UI\Kata_w\" />
+    <Folder Include="Katas_UI\Kata_x\" />
+    <Folder Include="Katas_UI\Kata_y\" />
+  </ItemGroup>
 </Project>
