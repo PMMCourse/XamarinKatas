@@ -20,7 +20,6 @@ namespace XamarinFormsKatas.Katas_UI.Kata_k
             LoadData();
             ListToPullRefresh.RefreshCommand = new Command(() => {
                 ListToPullRefresh.IsRefreshing = true;
-                ListToPullRefresh.IsRefreshing = true;
                 LoadData();
             });
         }
