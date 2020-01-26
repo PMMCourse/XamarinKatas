@@ -7,6 +7,8 @@ namespace XamarinFormsKatas
 {
     public partial class App : Application
     {
+        public static MasterDetailPage MasterC { get; set; }
+
         public App()
         {
             InitializeComponent();

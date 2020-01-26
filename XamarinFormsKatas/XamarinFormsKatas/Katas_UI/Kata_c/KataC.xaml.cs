@@ -9,12 +9,28 @@ using Xamarin.Forms.Xaml;
 
 namespace XamarinFormsKatas.Katas_UI.Kata_c
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class KataC : ContentPage
-	{
-		public KataC ()
-		{
-			InitializeComponent ();
-		}
-	}
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class KataC : MasterDetailPage
+    {
+        public KataC()
+        {
+            InitializeComponent();
+            MasterPage.ListView.ItemSelected += ListView_ItemSelected;
+        }
+
+        private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            var item = e.SelectedItem as KataCMasterMenuItem;
+            if (item == null)
+                return;
+
+            var page = (Page)Activator.CreateInstance(item.TargetType);
+            page.Title = item.Title;
+
+            Detail = new NavigationPage(page);
+            IsPresented = false;
+
+            MasterPage.ListView.SelectedItem = null;
+        }
+    }
 }
