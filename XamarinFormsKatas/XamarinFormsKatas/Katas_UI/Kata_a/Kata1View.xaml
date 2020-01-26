@@ -7,7 +7,7 @@
             <StackLayout>
                 <Button Text="A" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
                 <Button Text="B" x:Name="ButB" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
-                <Button Text="C" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
+                <Button Text="C" x:Name="ButC" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
                 <Button Text="D" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
                 <Button Text="E" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
                 <Button Text="F" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
