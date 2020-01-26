@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinFormsKatas.Katas_UI.Kata_b;
 
 namespace XamarinFormsKatas.Katas.Kata1
 {
@@ -15,6 +16,10 @@ namespace XamarinFormsKatas.Katas.Kata1
 		public Kata1View ()
 		{
 			InitializeComponent ();
-		}
+            ButB.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new KataB());
+            };
+        }
 	}
 }
