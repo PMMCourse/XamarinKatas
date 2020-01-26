@@ -22,12 +22,7 @@ namespace XamarinFormsKatas.Katas_UI.Kata_f
         {
             Persona prueba = new Persona();
             prueba.nombre=_busqueda;
-            //_listaPersonas = _listaPersonas.Where(x => x.nombre.Equals(prueba.nombre));
-           /* foreach (Persona a in listaPersonas) {
-                if (a.Where(x=>x.nombre!=busqueda)) {
-
-                }
-            }*/
+           // _listaPersonas = _listaPersonas.Where(x => x.nombre.Equals(prueba.nombre));
         }
         private void insertOnList()
         {
@@ -42,7 +37,6 @@ namespace XamarinFormsKatas.Katas_UI.Kata_f
             get => _listaPersonas;
             set
             {
-                OnPropertyChanged();
                 _listaPersonas = value;
             }
         }

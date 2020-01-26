@@ -15,6 +15,13 @@ namespace XamarinFormsKatas.Katas_UI.Kata_i
 		public KataI ()
 		{
 			InitializeComponent ();
+            //textToEntryPlaceholder();
+            //texto1.TextChanged += textToEntryPlaceholder();
 		}
-	}
+
+        /*private EventHandler textToEntryPlaceholder()
+        {
+            texto2.Placeholder= texto1.Text;
+        }*/
+    }
 }

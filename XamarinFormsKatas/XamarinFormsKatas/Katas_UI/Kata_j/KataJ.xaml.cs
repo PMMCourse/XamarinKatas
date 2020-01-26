@@ -15,6 +15,12 @@ namespace XamarinFormsKatas.Katas_UI.Kata_j
 		public KataJ ()
 		{
 			InitializeComponent ();
+            BindingContext = new MainViewModel();
 		}
+        private void loginPerform(object sender, EventArgs e) {
+            string usuario = usuarioEntry.Text;
+            string contraseña = contraseñaEntry.Text;
+            
+        }
 	}
 }
