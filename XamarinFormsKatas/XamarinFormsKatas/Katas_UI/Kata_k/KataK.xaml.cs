@@ -12,9 +12,29 @@ namespace XamarinFormsKatas.Katas_UI.Kata_k
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class KataK : ContentPage
 	{
-		public KataK ()
+        Random aleatorio = new Random();
+        List<int> lista = new List<int>();
+        public KataK ()
 		{
 			InitializeComponent ();
-		}
-	}
+            LoadData();
+            ListToPullRefresh.RefreshCommand = new Command(() => {
+                ListToPullRefresh.IsRefreshing = true;
+                ListToPullRefresh.IsRefreshing = true;
+                LoadData();
+            });
+        }
+
+        private void LoadData()
+        {
+            ListToPullRefresh.ItemsSource = null;
+            lista.Clear();
+            for (int i = 0; i < 8; i++)
+            {
+                lista.Add(aleatorio.Next());
+            }
+            ListToPullRefresh.ItemsSource = lista;
+            ListToPullRefresh.IsRefreshing = false;
+        }
+    }
 }
