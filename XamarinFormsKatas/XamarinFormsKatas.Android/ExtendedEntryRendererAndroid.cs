@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace XamarinFormsKatas.Droid
 {
-    public class ExtendedEntryRendererAndroid: EntryRenderer
+    public class ExtendedEntryRendererAndroid
     {
 
     }
