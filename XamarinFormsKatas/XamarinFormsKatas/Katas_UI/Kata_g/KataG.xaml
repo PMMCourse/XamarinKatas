@@ -3,10 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinFormsKatas.Katas_UI.Kata_g.KataG">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Orientation="Vertical">
+            <Button x:Name="botonAnimate" HeightRequest="200" WidthRequest="200" VerticalOptions="Center" HorizontalOptions="Center" Clicked="animacion" BackgroundColor="Red"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
