@@ -4,7 +4,7 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_d.KataD">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="PANTALLA D"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
