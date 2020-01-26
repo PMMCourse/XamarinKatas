@@ -3,10 +3,29 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinFormsKatas.Katas_UI.Kata_d.KataD">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="PANTALLA D"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+
+        <ListView x:Name="ListaPersonas">
+
+            <ListView.ItemTemplate>
+
+                <DataTemplate>
+
+                    <ViewCell>
+
+                        <StackLayout>
+
+                            <Label Text="{Binding Nombre}"/>
+                            <Label Text="{Binding Edad}"/>
+
+                        </StackLayout>
+                        
+                    </ViewCell>
+                    
+                </DataTemplate>
+                
+            </ListView.ItemTemplate>
+            
+        </ListView>
+
     </ContentPage.Content>
 </ContentPage>
