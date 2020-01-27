@@ -15,6 +15,27 @@ namespace XamarinFormsKatas.Katas.Kata1
 		public Kata1View ()
 		{
 			InitializeComponent ();
-		}
-	}
+            Binding();
+        }
+        void Binding()
+        {
+            btnb.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_UI.Kata_b.KataB());
+            };
+            btnc.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_UI.Kata_c.KataC());
+            };
+            btnd.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_UI.Kata_d.KataD());
+            };
+            btne.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_UI.Kata_e.KataE());
+            };
+
+        }
+    }
 }
