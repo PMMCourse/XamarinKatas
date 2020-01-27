@@ -157,4 +157,13 @@
       <Name>XamarinFormsKatas</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\imagent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\imagens.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\imagenp.png" />
+  </ItemGroup>
 </Project>

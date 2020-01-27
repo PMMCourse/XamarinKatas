@@ -8,7 +8,7 @@
         <StackLayout>
             <Button x:Name="btnb" Text="B"/>
             <Button x:Name="btnc" Text="C"/>
-            <Button x:Name="btnd" Text="D"/>
+            <Button x:Name="btnd" Text="D, E"/>
             <Button x:Name="btne" Text="E"/>
             <Button x:Name="btnf" Text="F"/>
             <Button x:Name="btng" Text="G"/>

@@ -8,12 +8,13 @@ namespace XamarinFormsKatas.Katas_UI.Kata_d
     {
         public int Edad { get; set; }
         public string Nombre { get; set; }
+        public string image { get; set; }
 
         public string Tostring
         {
             get
             {
-                return $" Nombre: {Nombre}, Edad: {Edad}";
+                return $" Nombre: {Nombre},  Edad: {Edad}";
             }
         }
     }
