@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:control="clr-namespace:XamarinFormsKatas.Katas_UI.Kata_q.Controls"
              x:Class="XamarinFormsKatas.Katas_UI.Kata_q.KataQ">
-    <ContentPage.Content>
+    <ContentPage.Content >
         <StackLayout>
             <control:ExtendedEntry/>
         </StackLayout>
