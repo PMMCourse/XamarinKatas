@@ -7,7 +7,7 @@
         <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="400" WidthRequest="400">
             <Label Text="LOGIN" HorizontalOptions="Center" FontSize="32"/>
             <control:ExtendedEntry x:Name="usuarioEntry" Placeholder="Usuario" Text="{Binding usuario}"/>
-            <control:ExtendedEntry x:Name="contraseñaEntry" Placeholder="Contraseña" Text="{Binding contraseña}" BorderColor="Green" BorderThickness="30"/>
+            <control:ExtendedEntry x:Name="contraseñaEntry" Placeholder="Contraseña" Text="{Binding contraseña}" BorderColor="Red" BorderThickness="30"/>
             <Button Text="Entrar" Clicked="loginPerform" />
         </StackLayout>
     </ContentPage.Content>
