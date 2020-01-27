@@ -18,8 +18,7 @@ namespace XamarinFormsKatas.Katas_UI.Kata_d
         public KataD()
         {
             InitializeComponent();
-            SelectedItem();
-            
+            SelectedItem();          
             Add();
         }
         void SelectedItem()
@@ -41,6 +40,13 @@ namespace XamarinFormsKatas.Katas_UI.Kata_d
             Personas.Add(new Persona() { Nombre = "jose", Edad = 22, image = "imagent.png" });
 
             Lista.ItemsSource = Personas;
+        }
+        private void Btnbuscar_Clicked(object sender, EventArgs e)
+        {
+            if (entrybuscar.Text != null)
+            {
+                Lista.ItemsSource = Personas.Where(x => x.Nombre == entrybuscar.Text);
+            }
         }
     }
 }

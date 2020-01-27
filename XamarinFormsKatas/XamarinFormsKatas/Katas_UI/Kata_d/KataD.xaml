@@ -4,7 +4,14 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_d.KataD">
 
     <ListView x:Name="Lista">
-
+        
+        <ListView.Header>
+            <StackLayout Orientation="Horizontal">
+                <Entry x:Name="entrybuscar" WidthRequest="200"></Entry>
+                <Button x:Name="Btnbuscar" Text="Buscar" Clicked="Btnbuscar_Clicked"/>
+            </StackLayout>
+        </ListView.Header>
+        
         <ListView.ItemTemplate>
             <DataTemplate>
                 <TextCell Text="{Binding Tostring}"></TextCell>
