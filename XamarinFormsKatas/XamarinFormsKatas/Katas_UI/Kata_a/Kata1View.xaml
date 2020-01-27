@@ -10,7 +10,7 @@
             <Button x:Name="btnc" Text="Master Detail Page"/>
             <Button x:Name="btnd" Text="Listas"/>
             <Button x:Name="btne" Text="Boton rotatorio"/>
-            <Button x:Name="btnf" Text="F"/>
+            <Button x:Name="btnf" Text="Boton animado"/>
             <Button x:Name="btng" Text="G"/>
             <Button x:Name="btnh" Text="H"/>
             <Button x:Name="btni" Text="I"/>
