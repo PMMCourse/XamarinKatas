@@ -19,6 +19,8 @@ Dentro de la carpeta tienes un Word con los diferentes ejercicios que debes real
 - [CollectionView](https://geeks.ms/jsuarez/2018/12/10/preview-primer-vistazo-a-xamarin-forms-collectionview/)
 - [Peticion HTTP](http://zetcode.com/csharp/httpclient/)
 - [Animations](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/animation/simple)
+- [GestureDetectors](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/gestures/)
+- [Custom Render](https://geeks.ms/jsuarez/2015/06/23/xamarin-forms-custom-renders/)
 
 
 
