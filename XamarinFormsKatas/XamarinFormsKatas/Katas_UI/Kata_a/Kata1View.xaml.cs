@@ -52,7 +52,7 @@ namespace XamarinFormsKatas.Katas.Kata1
                 Navigation.PushAsync(new Katas_UI.Kata_m.KataM());
             };
             buttonN.Clicked += (sender, e) => {
-                Navigation.PushAsync(new Katas_UI.Kata_n.KataN());
+                Navigation.PushAsync(new Katas_UI.Kata_n.KataNTabbed());
             };
             buttonO.Clicked += (sender, e) => {
                 Navigation.PushAsync(new Katas_UI.Kata_o.KataO());
