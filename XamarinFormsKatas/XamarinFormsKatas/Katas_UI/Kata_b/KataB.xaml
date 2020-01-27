@@ -4,9 +4,8 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_b.KataB">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Katab"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Button VerticalOptions="CenterAndExpand" 
+            HorizontalOptions="CenterAndExpand" WidthRequest="100" HeightRequest="100" Text="Boton redondo" BorderRadius="50"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
