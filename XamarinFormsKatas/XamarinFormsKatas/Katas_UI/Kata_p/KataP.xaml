@@ -3,10 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinFormsKatas.Katas_UI.Kata_p.KataP">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout x:Name="contenedor">
+            <Button x:Name="botonActivador" Text="Activar" Clicked="activarIndicator" WidthRequest="200" HeightRequest="200"/>
+            <ActivityIndicator x:Name="indicator" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" IsRunning="False" IsVisible="False" IsEnabled="False"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

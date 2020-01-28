@@ -16,5 +16,16 @@ namespace XamarinFormsKatas.Katas_UI.Kata_p
 		{
 			InitializeComponent ();
 		}
+        private async void activarIndicator(object sender, EventArgs e) {
+                botonActivador.IsEnabled=false;
+                indicator.IsEnabled = true;
+                indicator.IsRunning = true;
+                indicator.IsVisible = true;
+                await Task.Delay(5000);
+                indicator.IsEnabled = false;
+                indicator.IsRunning = false;
+                indicator.IsVisible = false;
+                botonActivador.IsEnabled=true;
+        }
 	}
 }
