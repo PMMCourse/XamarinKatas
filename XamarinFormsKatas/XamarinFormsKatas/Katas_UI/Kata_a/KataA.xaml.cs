@@ -19,17 +19,17 @@ namespace XamarinFormsKatas.Katas_UI.Kata_a
             botonC.Clicked += PantallaC;
             botonD.Clicked += PantallaD;
             botonE.Clicked += PantallaE;
-            botonF.Clicked += PantallaF;
+            botonF.Clicked += PantallaG;
         }
 
-        private void PantallaF(object sender, EventArgs e)
+        private void PantallaG(object sender, EventArgs e)
         {
-            ((NavigationPage)this.Parent).PushAsync(new Kata_f.KataF());
+            ((NavigationPage)this.Parent).PushAsync(new Kata_g.KataG());
         }
 
         private void PantallaE(object sender, EventArgs e)
         {
-            ((NavigationPage)this.Parent).PushAsync(new Kata_e.KataE());
+            ((NavigationPage)this.Parent).PushAsync(new Kata_f.KataF());
         }
 
         private void PantallaD(object sender, EventArgs e)
