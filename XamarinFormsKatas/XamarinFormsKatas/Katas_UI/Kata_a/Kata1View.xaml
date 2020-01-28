@@ -6,18 +6,18 @@
     <ScrollView>
 
         <StackLayout>
-            <Button x:Name="btnb" Text="Boton redondo"/>
-            <Button x:Name="btnc" Text="Master Detail Page"/>
-            <Button x:Name="btnd" Text="Listas"/>
-            <Button x:Name="btne" Text="Boton rotatorio"/>
-            <Button x:Name="btnf" Text="Boton animado"/>
-            <Button x:Name="btng" Text="G"/>
-            <Button x:Name="btnh" Text="H"/>
-            <Button x:Name="btni" Text="I"/>
-            <Button x:Name="btnj" Text="J"/>
-            <Button x:Name="btnk" Text="K"/>
-            <Button x:Name="btnl" Text="L"/>
-            <Button x:Name="btnm" Text="m"/>
+            <Button x:Name="btn1" Text="Boton redondo"/>
+            <Button x:Name="btn2" Text="Master Detail Page"/>
+            <Button x:Name="btn3" Text="Listas"/>
+            <Button x:Name="btn4" Text="Boton rotatorio"/>
+            <Button x:Name="btn5" Text="Boton animado"/>
+            <Button x:Name="btn6" Text="PlaceHolder"/>
+            <Button x:Name="btn7" Text="H"/>
+            <Button x:Name="btn8" Text="I"/>
+            <Button x:Name="btn9" Text="J"/>
+            <Button x:Name="btn10" Text="K"/>
+            <Button x:Name="btn11" Text="L"/>
+            <Button x:Name="btn12" Text="m"/>
         </StackLayout>
 
     </ScrollView>

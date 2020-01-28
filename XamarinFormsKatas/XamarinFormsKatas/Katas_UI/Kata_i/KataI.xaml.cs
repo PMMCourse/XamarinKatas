@@ -11,10 +11,11 @@ namespace XamarinFormsKatas.Katas_UI.Kata_i
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class KataI : ContentPage
-	{
-		public KataI ()
+	{      
+        public KataI ()
 		{
 			InitializeComponent ();
+            BindingContext = new ViewModel();
 		}
 	}
 }

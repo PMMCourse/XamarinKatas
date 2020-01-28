@@ -19,25 +19,29 @@ namespace XamarinFormsKatas.Katas.Kata1
         }
         void Binding()
         {
-            btnb.Clicked += (sender, e) =>
+            btn1.Clicked += (sender, e) =>
             {
                 Navigation.PushAsync(new Katas_UI.Kata_b.KataB());
             };
-            btnc.Clicked += (sender, e) =>
+            btn2.Clicked += (sender, e) =>
             {
                 Navigation.PushAsync(new Katas_UI.Kata_c.MasterDetailPage1());
             };
-            btnd.Clicked += (sender, e) =>
+            btn3.Clicked += (sender, e) =>
             {
                 Navigation.PushAsync(new Katas_UI.Kata_d.KataD());
             };
-            btne.Clicked += (sender, e) =>
+            btn4.Clicked += (sender, e) =>
             {
                 Navigation.PushAsync(new Katas_UI.Kata_g.KataG());
             };
-            btnf.Clicked += (sender, e) =>
+            btn5.Clicked += (sender, e) =>
             {
                 Navigation.PushAsync(new Katas_UI.Kata_h.KataH());
+            };
+            btn6.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_UI.Kata_i.KataI());
             };
 
         }
