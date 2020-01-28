@@ -8,7 +8,7 @@
                 <Button Text="A" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
                 <Button Text="B" x:Name="ButB" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
                 <Button Text="C" x:Name="ButC" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
-                <Button Text="D" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
+                <Button Text="D" x:Name="ButD" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
                 <Button Text="E" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
                 <Button Text="F" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
                 <Button Text="G" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>

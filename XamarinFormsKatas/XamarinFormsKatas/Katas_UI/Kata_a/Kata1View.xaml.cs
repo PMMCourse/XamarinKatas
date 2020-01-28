@@ -8,6 +8,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using XamarinFormsKatas.Katas_UI.Kata_b;
 using XamarinFormsKatas.Katas_UI.Kata_c;
+using XamarinFormsKatas.Katas_UI.Kata_d;
 
 namespace XamarinFormsKatas.Katas.Kata1
 {
@@ -24,6 +25,10 @@ namespace XamarinFormsKatas.Katas.Kata1
             ButC.Clicked += (sender, e) =>
             {
                 Navigation.PushAsync(new MasterDetailPage1());
+            };
+            ButD.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new KataD());
             };
         }
     }
