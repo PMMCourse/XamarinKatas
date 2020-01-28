@@ -23,6 +23,7 @@ namespace XamarinFormsKatas.Katas_UI.Kata_a
             botonH.Clicked += PantallaH;
             botonI.Clicked += PantallaI;
             botonK.Clicked += PantallaK;
+            botonM.Clicked += PantallaM;
         }
 
         private void PantallaG(object sender, EventArgs e)
@@ -63,6 +64,10 @@ namespace XamarinFormsKatas.Katas_UI.Kata_a
         private void PantallaK(object sender, EventArgs e)
         {
             ((NavigationPage)this.Parent).PushAsync(new Kata_k.KataK());
+        }
+        private void PantallaM(object sender, EventArgs e)
+        {
+            ((NavigationPage)this.Parent).PushAsync(new Kata_m.KataM());
         }
     }
 }
