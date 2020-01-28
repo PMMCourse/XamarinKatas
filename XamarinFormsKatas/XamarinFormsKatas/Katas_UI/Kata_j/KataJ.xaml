@@ -10,7 +10,7 @@
                 <Entry x:Name="Entry2"></Entry>
             </StackLayout>
             <StackLayout>
-                <Button x:Name="btnLogin"></Button>
+                <Button Text="Renderer Entry" x:Name="btnLogin"></Button>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
