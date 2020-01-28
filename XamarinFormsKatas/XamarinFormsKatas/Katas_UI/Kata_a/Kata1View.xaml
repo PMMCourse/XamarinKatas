@@ -14,7 +14,7 @@
             <Button x:Name="btn6" Text="PlaceHolder"/>
             <Button x:Name="btn7" Text="Custom Renderer Entry"/>
             <Button x:Name="btn8" Text="Pull and refresh"/>
-            <Button x:Name="btn9" Text="J"/>
+            <Button x:Name="btn9" Text="Gesture Recognizer"/>
             <Button x:Name="btn10" Text="K"/>
             <Button x:Name="btn11" Text="L"/>
             <Button x:Name="btn12" Text="m"/>

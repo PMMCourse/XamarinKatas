@@ -1,12 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:effects="clr-namespace:XamarinFormsKatas.Katas_UI.Kata_l"
              x:Class="XamarinFormsKatas.Katas_UI.Kata_l.KataL">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+
+            <BoxView Margin="10,10,10,0" x:Name="boxview" Color="Aqua" WidthRequest="200" HeightRequest="300">
+                <BoxView.GestureRecognizers>
+                    <SwipeGestureRecognizer Direction="Left" Swiped="SwipeGestureRecognizer_Swiped_Left"/>
+                    <SwipeGestureRecognizer Direction="Right" Swiped="SwipeGestureRecognizer_Swiped_Right"/>
+                    <TapGestureRecognizer NumberOfTapsRequired="2" Tapped="TapGestureRecognizer_Tapped"/>
+                    <PinchGestureRecognizer PinchUpdated="PinchGestureRecognizer_PinchUpdated"/>
+                </BoxView.GestureRecognizers>
+                
+            </BoxView>
+
+            <Label HorizontalOptions="Center" x:Name="label"></Label>
+            <Button Text="Long Press Me!" effects:LongPressedEffect.Command="{Binding ShowAlertCommand}" effects:LongPressedEffect.CommandParameter="{Binding .}">
+                <Button.Effects>
+                    <effects:LongPressedEffect />
+                </Button.Effects>
+            </Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
