@@ -20,6 +20,8 @@ namespace XamarinFormsKatas.Katas_UI.Kata_d
             InsertarPersonas();
 
             ListaPersonas.ItemsSource = listaPersonas;
+
+            ListaPersonas.ItemTapped += Seleccionado;
 		}
 
         private void InsertarPersonas()
@@ -28,7 +30,13 @@ namespace XamarinFormsKatas.Katas_UI.Kata_d
             listaPersonas.Add(new Persona("Persona 2", 23));
             listaPersonas.Add(new Persona("Persona 3", 24));
             listaPersonas.Add(new Persona("Persona 4", 25));
-            listaPersonas.Add(new Persona("Persona 5", 26));     
+            listaPersonas.Add(new Persona("Persona 5", 26));       
+        }
+
+        private void Seleccionado(Object sender, EventArgs e)
+        {
+            var selec = (Persona)ListaPersonas.SelectedItem;
+            Navigation.PushAsync(new Katas_UI.Kata_e.KataE(selec.Nombre));
         }
 	}
 }

@@ -12,9 +12,10 @@ namespace XamarinFormsKatas.Katas_UI.Kata_e
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class KataE : ContentPage
 	{
-		public KataE ()
+		public KataE (string nombre = "")
 		{
 			InitializeComponent ();
-		}
+            lbNombreSegundo.Text = nombre;
+        }
 	}
 }

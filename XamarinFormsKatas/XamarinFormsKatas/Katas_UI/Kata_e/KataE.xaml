@@ -4,9 +4,10 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_e.KataE">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Pantalla E"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+
+            <Label x:Name="lbNombreSegundo"/>
+            <Image Source="https://www.elbrinner.com/img/images/blog/xamarin_grande.png" WidthRequest="200" HeightRequest="200"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
