@@ -4,9 +4,12 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_k.KataK">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+
+            <ListView x:Name="ListaR" 
+                      VerticalOptions="CenterAndExpand" 
+                      HorizontalOptions="CenterAndExpand" 
+                      IsPullToRefreshEnabled="True"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
