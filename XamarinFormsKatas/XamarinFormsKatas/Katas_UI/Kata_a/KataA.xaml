@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XamarinFormsKatas.Katas_UI.Kata_a.KataA">
+    <ContentPage.Content>
+        <ScrollView VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <StackLayout>
+                <Label Text="KATA_UI" HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center" FontSize="Title"></Label>
+                <Button Text="Kata_b" Clicked="BotonKata_b"></Button>
+                <Button Text="Kata_c"></Button>
+                <Button Text="Kata_d"></Button>
+                <Button Text="Kata_e"></Button>
+                <Button Text="Kata_f"></Button>
+                <Button Text="Kata_g"></Button>
+                <Button Text="Kata_h"></Button>
+                <Button Text="Kata_i"></Button>
+                <Button Text="Kata_j"></Button>
+                <Button Text="Kata_k"></Button>
+                <Button Text="Kata_l"></Button>
+                <Button Text="Kata_m"></Button>
+                <Button Text="Kata_n"></Button>
+                <Button Text="Kata_o"></Button>
+                <Button Text="Kata_p"></Button>
+                <Button Text="Kata_q"></Button>
+                <Button Text="Kata_r"></Button>
+                <Button Text="Kata_s"></Button>
+                <Button Text="Kata_t"></Button>
+                <Button Text="Kata_u"></Button>
+                <Button Text="Kata_v"></Button>
+                <Button Text="Kata_y"></Button>
+                <Button Text="Kata_z"></Button>
+                <Label Text="KATA_LOGIC" HorizontalOptions="Center" VerticalOptions="Center"  HorizontalTextAlignment="Center" FontSize="Title"></Label>
+                <Button Text="Kata_LA"></Button>
+                <Button Text="Kata_LB"></Button>
+                <Button Text="Kata_LC"></Button>
+                <Button Text="Kata_LD"></Button>
+                <Button Text="Kata_LE"></Button>
+                <Button Text="Kata_LF"></Button>
+                <Button Text="Kata_LG"></Button>
+                <Button Text="Kata_LH"></Button>
+                <Button Text="Kata_LI"></Button>
+                <Button Text="Kata_LJ"></Button>
+                <Button Text="Kata_LK"></Button>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

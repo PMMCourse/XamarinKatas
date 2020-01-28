@@ -10,8 +10,8 @@ namespace XamarinFormsKatas
         public App()
         {
             InitializeComponent();
-
             MainPage = new MainPage();
+           // MainPage = new NavigationPage(new Katas_UI.Kata_a.KataA());
         }
 
         protected override void OnStart()
