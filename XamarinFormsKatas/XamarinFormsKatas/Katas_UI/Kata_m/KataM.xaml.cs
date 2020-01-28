@@ -15,6 +15,16 @@ namespace XamarinFormsKatas.Katas_UI.Kata_m
 		public KataM ()
 		{
 			InitializeComponent ();
+            int cont = 1;
+            BtnAdd.Clicked += (sender, e) =>
+            {
+                var label = new Label()
+                {
+                    Text = $"label {cont}",                                       
+                };
+                Sl.Children.Add(label);
+                cont++;
+            };
 		}
 	}
 }
