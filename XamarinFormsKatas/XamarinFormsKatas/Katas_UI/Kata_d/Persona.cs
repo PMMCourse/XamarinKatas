@@ -14,5 +14,9 @@ namespace XamarinFormsKatas.Katas_UI.Kata_d
             this.edad = edad;
             this.nombre = nombre;
         }
+        public Persona()
+        {
+
+        }
     }
 }
