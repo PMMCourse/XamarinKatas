@@ -4,9 +4,9 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_d.KataD">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <ListView  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" SeparatorColor="Black" IsPullToRefreshEnabled="True" ItemsSource="{Binding p}">
+                
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
