@@ -75,6 +75,11 @@
                         HeightRequest="80" 
                         x:Name="botonV"
                         />
+                <Button Text="Boton X"
+                        WidthRequest="110"
+                        HeightRequest="80" 
+                        x:Name="botonX"
+                        />
             </StackLayout>
 
         </ScrollView>
