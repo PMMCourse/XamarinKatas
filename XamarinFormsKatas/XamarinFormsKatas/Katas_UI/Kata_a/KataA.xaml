@@ -13,7 +13,7 @@
                 <Button Text="Kata_c" BackgroundColor="Green" Clicked="BotonKata_c"></Button>
                 <Button Text="Kata_d" BackgroundColor="Green" Clicked="BotonKata_d"></Button>
                 <Button Text="Kata_e" BackgroundColor="Green" Clicked="BotonKata_e"></Button>
-                <Button Text="Kata_f" Clicked="BotonKata_f"></Button>
+                <Button Text="Kata_f" BackgroundColor="Green" Clicked="BotonKata_f"></Button>
                 <Button Text="Kata_g" Clicked="BotonKata_g"></Button>
                 <Button Text="Kata_h" Clicked="BotonKata_h"></Button>
                 <Button Text="Kata_i" Clicked="BotonKata_i"></Button>

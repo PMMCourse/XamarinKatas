@@ -9,7 +9,6 @@
         <StackLayout>
             <Image x:Name="imagen" WidthRequest="100" HeightRequest="100"></Image>
             <Label x:Name="labelTexto" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
-            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

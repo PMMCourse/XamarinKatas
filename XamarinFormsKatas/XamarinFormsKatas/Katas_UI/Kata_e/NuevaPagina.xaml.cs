@@ -19,5 +19,6 @@ namespace XamarinFormsKatas.Katas_UI.Kata_e
             imagen.Source = persona.Foto;
 
         }
+
     }
 }

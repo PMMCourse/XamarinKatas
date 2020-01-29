@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using XamarinFormsKatas.Katas_UI.Kata_e;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -30,7 +30,7 @@ namespace XamarinFormsKatas.Katas_UI.Kata_e
 		private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
 		{
 			Persona per = (Persona) vistaLista.SelectedItem;
-			Navigation.PushAsync(new Katas_UI.Kata_e.NuevaPagina(per));
+			Navigation.PushAsync(new NuevaPagina(per));
 		}
 	}
 }
