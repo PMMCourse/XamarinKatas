@@ -4,9 +4,10 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_p.KataP">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+
+            <Button x:Name="botoncito" Text="Pulsa aqui" WidthRequest="100" HeightRequest="100"/>
+            <ActivityIndicator x:Name="contador" IsRunning="False" IsVisible="False"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
