@@ -19,6 +19,7 @@
             <Button x:Name="btn11" Text="Tabbed Page"/>
             <Button x:Name="btn12" Text="Cuadro al pulsar atras"/>
             <Button x:Name="btn13" Text="Activity Indicator"/>
+            <Button x:Name="btn14" Text="Entry sin borde"/>
         </StackLayout>
 
     </ScrollView>
