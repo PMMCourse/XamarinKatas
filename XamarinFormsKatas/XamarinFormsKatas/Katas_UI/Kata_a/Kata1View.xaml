@@ -20,6 +20,7 @@
             <Button x:Name="btn12" Text="Cuadro al pulsar atras"/>
             <Button x:Name="btn13" Text="Activity Indicator"/>
             <Button x:Name="btn14" Text="Entry sin borde"/>
+            <Button x:Name="btn15" Text="Lista Cli y Pro"/>
         </StackLayout>
 
     </ScrollView>
