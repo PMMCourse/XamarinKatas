@@ -4,7 +4,7 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_b.KataB">
     <ContentPage.Content>
         <StackLayout>
-            <Button Text="Boton eje B"></Button>
+            <Button Clicked="botonB" Text="Boton ejer B" HeightRequest="50" WidthRequest="50" BorderRadius="100"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
