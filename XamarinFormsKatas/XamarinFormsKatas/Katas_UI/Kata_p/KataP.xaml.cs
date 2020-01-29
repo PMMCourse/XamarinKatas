@@ -16,12 +16,13 @@ namespace XamarinFormsKatas.Katas_UI.Kata_p
 		{
 			InitializeComponent ();
             BtnActivity.Clicked += async (sender, e) =>
-            {
+            {               
                 ActivityIndicator activityIndicator = new ActivityIndicator();
                 Sl.Children.Add(activityIndicator);
                 activityIndicator.IsRunning = true;
-                await WaitAndExecute(5000, () => activityIndicator.IsRunning = false);             
-               
+                Sl.IsEnabled = false;
+                await WaitAndExecute(5000, () => activityIndicator.IsRunning = false);
+                Sl.IsEnabled = true;
             };
 
 		}
