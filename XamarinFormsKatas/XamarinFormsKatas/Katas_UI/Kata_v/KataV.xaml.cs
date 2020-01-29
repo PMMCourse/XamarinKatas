@@ -15,6 +15,14 @@ namespace XamarinFormsKatas.Katas_UI.Kata_v
 		public KataV ()
 		{
 			InitializeComponent ();
+
+            string texto = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" +
+                "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" +
+                "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" +
+                "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+
+            infinito.Text = texto + " " + texto + " " + texto + " " + texto + " " + texto + " " + texto
+                + " " + texto + " " + texto + " " + texto;
 		}
 	}
 }
