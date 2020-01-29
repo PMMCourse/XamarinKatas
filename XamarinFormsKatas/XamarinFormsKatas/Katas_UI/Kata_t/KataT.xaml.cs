@@ -22,7 +22,8 @@ namespace XamarinFormsKatas.Katas_UI.Kata_t
             var D2 = new Deportista() { Deporte = "Baloncesto", Sexo = "Mujer", Puntuacion = 100, Edad = 23 };
             Lista.Add(D1);
             Lista.Add(D2);
-            listview.ItemsSource = Lista;
+            listview.ItemsSource = Lista.Where(x => x.Deporte.Contains("F") && x.Edad > 20 && x.Puntuacion == 100);
+
 		}
 	}
 }
