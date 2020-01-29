@@ -24,7 +24,8 @@ namespace XamarinFormsKatas.Katas_UI.Kata_a
         }
         public void BotonKata_c(object sender, EventArgs args)
         {
-            Navigation.PushAsync(new Katas_UI.Kata_c.KataC());
+            //  Navigation.PushAsync(new Katas_UI.Kata_c.KataC());
+            Navigation.PushAsync(new Katas_UI.Kata_c.MastDetaKataC());
         }
         public void BotonKata_d(object sender, EventArgs args)
         {
