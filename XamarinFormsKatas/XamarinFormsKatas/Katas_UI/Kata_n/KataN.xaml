@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:tab1="clr-namespace:XamarinFormsKatas.Katas_UI.Kata_n"
+             xmlns:tab2="clr-namespace:XamarinFormsKatas.Katas_UI.Kata_n"
+             xmlns:tab3="clr-namespace:XamarinFormsKatas.Katas_UI.Kata_n"
              x:Class="XamarinFormsKatas.Katas_UI.Kata_n.KataN">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
-</ContentPage>
+
+    <tab1:Tabbed1 Title="Opcion 1"/>
+    <tab2:Tabbed2 Title="Opcion 2"/>
+    <tab3:Tabbed3 Title="Opcion 3"/>
+
+</TabbedPage>
