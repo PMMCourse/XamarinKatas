@@ -10,40 +10,41 @@
             <StackLayout>
                 <Label Text="KATA_UI" HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center" FontSize="Title"></Label>
                 <Button Text="Kata_b" Clicked="BotonKata_b"></Button>
-                <Button Text="Kata_c"></Button>
-                <Button Text="Kata_d"></Button>
-                <Button Text="Kata_e"></Button>
-                <Button Text="Kata_f"></Button>
-                <Button Text="Kata_g"></Button>
-                <Button Text="Kata_h"></Button>
-                <Button Text="Kata_i"></Button>
-                <Button Text="Kata_j"></Button>
-                <Button Text="Kata_k"></Button>
-                <Button Text="Kata_l"></Button>
-                <Button Text="Kata_m"></Button>
-                <Button Text="Kata_n"></Button>
-                <Button Text="Kata_o"></Button>
-                <Button Text="Kata_p"></Button>
-                <Button Text="Kata_q"></Button>
-                <Button Text="Kata_r"></Button>
-                <Button Text="Kata_s"></Button>
-                <Button Text="Kata_t"></Button>
-                <Button Text="Kata_u"></Button>
-                <Button Text="Kata_v"></Button>
-                <Button Text="Kata_y"></Button>
-                <Button Text="Kata_z"></Button>
+                <Button Text="Kata_c" Clicked="BotonKata_c"></Button>
+                <Button Text="Kata_d" Clicked="BotonKata_d"></Button>
+                <Button Text="Kata_e" Clicked="BotonKata_e"></Button>
+                <Button Text="Kata_f" Clicked="BotonKata_f"></Button>
+                <Button Text="Kata_g" Clicked="BotonKata_g"></Button>
+                <Button Text="Kata_h" Clicked="BotonKata_h"></Button>
+                <Button Text="Kata_i" Clicked="BotonKata_i"></Button>
+                <Button Text="Kata_j" Clicked="BotonKata_j"></Button>
+                <Button Text="Kata_k" Clicked="BotonKata_k"></Button>
+                <Button Text="Kata_l" Clicked="BotonKata_l"></Button>
+                <Button Text="Kata_m" Clicked="BotonKata_m"></Button>
+                <Button Text="Kata_n" Clicked="BotonKata_n"></Button>
+                <Button Text="Kata_o" Clicked="BotonKata_o"></Button>
+                <Button Text="Kata_p" Clicked="BotonKata_p"></Button>
+                <Button Text="Kata_q" Clicked="BotonKata_q"></Button>
+                <Button Text="Kata_r" Clicked="BotonKata_r"></Button>
+                <Button Text="Kata_s" Clicked="BotonKata_s"></Button>
+                <Button Text="Kata_t" Clicked="BotonKata_t"></Button>
+                <Button Text="Kata_u" Clicked="BotonKata_u"></Button>
+                <Button Text="Kata_v" Clicked="BotonKata_v"></Button>
+                <Button Text="Kata_w" Clicked="BotonKata_w"></Button>
+                <Button Text="Kata_Y" Clicked="BotonKata_y"></Button>
+                <Button Text="Kata_z" Clicked="BotonKata_z"></Button>
                 <Label Text="KATA_LOGIC" HorizontalOptions="Center" VerticalOptions="Center"  HorizontalTextAlignment="Center" FontSize="Title"></Label>
-                <Button Text="Kata_LA"></Button>
-                <Button Text="Kata_LB"></Button>
-                <Button Text="Kata_LC"></Button>
-                <Button Text="Kata_LD"></Button>
-                <Button Text="Kata_LE"></Button>
-                <Button Text="Kata_LF"></Button>
-                <Button Text="Kata_LG"></Button>
-                <Button Text="Kata_LH"></Button>
-                <Button Text="Kata_LI"></Button>
-                <Button Text="Kata_LJ"></Button>
-                <Button Text="Kata_LK"></Button>
+                <Button Text="Kata_LA" Clicked="BotonKata_la"></Button>
+                <Button Text="Kata_LB" Clicked="BotonKata_lb"></Button>
+                <Button Text="Kata_LC" Clicked="BotonKata_lc"></Button>
+                <Button Text="Kata_LD" Clicked="BotonKata_ld"></Button>
+                <Button Text="Kata_LE" Clicked="BotonKata_le"></Button>
+                <Button Text="Kata_LF" Clicked="BotonKata_lf"></Button>
+                <Button Text="Kata_LG" Clicked="BotonKata_lg"></Button>
+                <Button Text="Kata_LH" Clicked="BotonKata_lh"></Button>
+                <Button Text="Kata_LI" Clicked="BotonKata_li"></Button>
+                <Button Text="Kata_LJ" Clicked="BotonKata_lj"></Button>
+                <Button Text="Kata_LK" Clicked="BotonKata_lk"></Button>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
