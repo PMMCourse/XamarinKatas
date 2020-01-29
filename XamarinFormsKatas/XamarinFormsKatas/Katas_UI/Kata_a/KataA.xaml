@@ -9,10 +9,10 @@
         <ScrollView VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
             <StackLayout>
                 <Label Text="KATA_UI" HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center" FontSize="Title"></Label>
-                <Button Text="Kata_b" Clicked="BotonKata_b"></Button>
-                <Button Text="Kata_c" Clicked="BotonKata_c"></Button>
-                <Button Text="Kata_d" Clicked="BotonKata_d"></Button>
-                <Button Text="Kata_e" Clicked="BotonKata_e"></Button>
+                <Button Text="Kata_b" BackgroundColor="Green" Clicked="BotonKata_b"></Button>
+                <Button Text="Kata_c" BackgroundColor="Green" Clicked="BotonKata_c"></Button>
+                <Button Text="Kata_d" BackgroundColor="Green" Clicked="BotonKata_d"></Button>
+                <Button Text="Kata_e" BackgroundColor="Green" Clicked="BotonKata_e"></Button>
                 <Button Text="Kata_f" Clicked="BotonKata_f"></Button>
                 <Button Text="Kata_g" Clicked="BotonKata_g"></Button>
                 <Button Text="Kata_h" Clicked="BotonKata_h"></Button>
