@@ -2,4 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinFormsKatas.Katas.Kata1.Kata1View">
+    <ScrollView>
+        <StackLayout>
+            <Button x:Name="button_b" Text="B"/>
+            <Button x:Name="button_c" Text="C"/>
+            <Button x:Name="button_d" Text="D"/>
+            <Button x:Name="button_e" Text="E"/>
+            <Button x:Name="button_f" Text="F"/>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>
