@@ -24,6 +24,7 @@
             <Button x:Name="btn16" Text="Cuadros de colores"/>
             <Button x:Name="btn17" Text="Grid deportista"/>
             <Button x:Name="btn18" Text="Maps"/>
+            <Button x:Name="btn19" Text="Horizontal Scroll"/>
         </StackLayout>
 
     </ScrollView>
