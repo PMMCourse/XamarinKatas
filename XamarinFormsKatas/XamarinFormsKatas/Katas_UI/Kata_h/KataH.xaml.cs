@@ -12,9 +12,16 @@ namespace XamarinFormsKatas.Katas_UI.Kata_h
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class KataH : ContentPage
 	{
-		public KataH ()
+		public KataH()
 		{
-			InitializeComponent ();
+			InitializeComponent();
+		}
+		public void BotonKata_h(object sender, EventArgs args)
+		{
+			//lo muevo en 50 de los ejes X e Y hacia arriba
+			botonDinamico.TranslateTo(botonDinamico.X-50, botonDinamico.Y-50);
+			//El boton Gira
+			botonDinamico.RotateTo(360* 360);
 		}
 	}
 }
