@@ -4,9 +4,29 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_w.KataW">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <StackLayout Orientation ="Horizontal" Padding="10">
+                <Label x:Name="Labell" Text="Switch Label" FontSize="Medium" TextColor="Black"/>
+                <Label Text="{Binding IsToggled, Source={x:Reference switchLabel}}" HorizontalOptions="EndAndExpand"></Label>
+                <Switch x:Name="switchLabel" VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation ="Horizontal" Padding="10">
+                <Button x:Name="Buttonn" Text="Switch Button" FontSize="Medium" TextColor="Black"/>
+                <Label Text="{Binding IsToggled, Source={x:Reference switchButton}}" HorizontalOptions="EndAndExpand"></Label>
+                <Switch x:Name="switchButton" VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation ="Horizontal" Padding="10">
+                <Entry x:Name="Entryy" Placeholder="Switch Entry" FontSize="Medium" TextColor="Black"/>
+                <Label Text="{Binding IsToggled, Source={x:Reference switchEntry}}" HorizontalOptions="EndAndExpand"></Label>
+                <Switch x:Name="switchEntry" VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation ="Horizontal" Padding="10">
+                <ActivityIndicator x:Name="ActivityIndicator" IsRunning="True"/>
+                <Label Text="{Binding IsToggled, Source={x:Reference switchAi}}" HorizontalOptions="EndAndExpand"></Label>
+                <Switch x:Name="switchAi" VerticalOptions="Start"/>
+            </StackLayout>
+            <Button Text="Navega" x:Name="BtnNavegacion">
+
+            </Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -25,6 +25,7 @@
             <Button x:Name="btn17" Text="Grid deportista"/>
             <Button x:Name="btn18" Text="Maps"/>
             <Button x:Name="btn19" Text="Horizontal Scroll"/>
+            <Button x:Name="btn20" Text="Switch"/>
         </StackLayout>
 
     </ScrollView>
