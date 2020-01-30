@@ -14,7 +14,6 @@ using XamarinFormsKatas.Katas_UI.Kata_q;
 [assembly: ExportRenderer(typeof(BorderlessEntry), typeof(BorderlessEntryRenderer))]
 namespace XamarinFormsKatas.iOS
 {
-
     public class BorderlessEntryRenderer : EntryRenderer
     {
         protected override void OnElementPropertyChanged(object sender, PropertyChangedEventArgs e)

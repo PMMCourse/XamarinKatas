@@ -23,6 +23,7 @@
             <Button x:Name="btn15" Text="Lista Cli y Pro"/>
             <Button x:Name="btn16" Text="Cuadros de colores"/>
             <Button x:Name="btn17" Text="Grid deportista"/>
+            <Button x:Name="btn18" Text="Maps"/>
         </StackLayout>
 
     </ScrollView>
