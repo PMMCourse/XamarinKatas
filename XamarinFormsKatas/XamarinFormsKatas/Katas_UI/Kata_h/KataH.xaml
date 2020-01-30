@@ -4,9 +4,7 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_h.KataH">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="ButChema" Text="Go to Infierno de Lleida" Clicked="RotateChema" WidthRequest="100" HeightRequest="90" CornerRadius="20" VerticalOptions="CenterAndExpand" HorizontalOptions ="CenterAndExpand"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

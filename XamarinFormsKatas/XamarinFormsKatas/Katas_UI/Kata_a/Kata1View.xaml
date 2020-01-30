@@ -12,7 +12,7 @@
                 <Button Text="E" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
                 <Button Text="F" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
                 <Button Text="G" x:Name="ButG" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
-                <Button Text="H" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
+                <Button Text="H" x:Name="ButH" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
                 <Button Text="I" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
                 <Button Text="J" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
                 <Button Text="K" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>

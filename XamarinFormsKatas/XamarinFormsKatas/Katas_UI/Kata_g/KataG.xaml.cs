@@ -20,6 +20,7 @@ namespace XamarinFormsKatas.Katas_UI.Kata_g
 
         private async void RotateChema(object sender, EventArgs e)
         {
+            //await ButChema.TranslateTo(0, -100, 250, Easing.CubicInOut);
             await ButChema.RotateTo(360, 2000, Easing.CubicInOut);
             ButChema.Rotation=0;
         }
