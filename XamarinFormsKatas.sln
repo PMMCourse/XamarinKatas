@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.960
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinFormsKatas.Android", "XamarinFormsKatas\XamarinFormsKatas.Android\XamarinFormsKatas.Android.csproj", "{3E1DE645-63EB-4A54-B742-F02384F0EB8A}"
 EndProject
@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinFormsKatas.iOS", "Xa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinFormsKatas.UWP", "XamarinFormsKatas\XamarinFormsKatas.UWP\XamarinFormsKatas.UWP.csproj", "{2744B347-9B87-4EBC-BCDB-38AE88762E1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinFormsKatas", "XamarinFormsKatas\XamarinFormsKatas\XamarinFormsKatas.csproj", "{947E686F-5D7A-4B4C-BA69-8715AC80AB3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XamarinFormsKatas", "XamarinFormsKatas\XamarinFormsKatas\XamarinFormsKatas.csproj", "{947E686F-5D7A-4B4C-BA69-8715AC80AB3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
