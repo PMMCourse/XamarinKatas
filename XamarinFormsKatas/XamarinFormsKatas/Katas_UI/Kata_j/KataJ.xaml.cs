@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinFormsKatas.Katas_UI.Kata_i.controles;
 
 namespace XamarinFormsKatas.Katas_UI.Kata_j
 {
@@ -16,11 +17,18 @@ namespace XamarinFormsKatas.Katas_UI.Kata_j
         {
             InitializeComponent();
             bool denegado = false;
+            var box = new BoxView
+            {
+                VerticalOptions = LayoutOptions.FillAndExpand,
+                HorizontalOptions = LayoutOptions.FillAndExpand,
+                BackgroundColor = Color.Red
+            };
             login.Clicked += (sender, e) =>
             {
                 if((entrada2.Text==null|| entrada2.Text == "") && denegado == false)
                 {
-                    Entry entrada = new RoundedEntrada();
+                    Entry entrada = new ExtendedEntrada();
+                    
                     stack1.Children.Remove(entrada2);
                     stack1.Children.Add(entrada1);
                     denegado = true;
@@ -29,9 +37,12 @@ namespace XamarinFormsKatas.Katas_UI.Kata_j
                         Text = "Ha salido un ERROR"
                     };
                 stack1.Children.Add(label);
+                    stack1.Children.Add(box);
                 }
             };
            
         }
+       
+
     }  
 }
