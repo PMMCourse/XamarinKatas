@@ -20,19 +20,8 @@
 
                     <DataTemplate>
 
-                        <ViewCell>
+                        <TextCell Text="{Binding MostrarCadena}"/>
 
-                            <StackLayout Orientation="Vertical">
-
-                                <Label Text="{Binding Nombre}"></Label>
-                                <Label Text="{Binding Edad}"></Label>
-                                <Label Text="{Binding Deporte}"></Label>
-                                <Label Text="{Binding Puntuacion}"></Label>
-                                
-                            </StackLayout>
-                            
-                        </ViewCell>
-                        
                     </DataTemplate>
                     
                 </ListView.ItemTemplate>

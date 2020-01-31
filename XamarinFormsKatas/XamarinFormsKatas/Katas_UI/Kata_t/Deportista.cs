@@ -10,6 +10,12 @@ namespace XamarinFormsKatas.Katas_UI.Kata_t
         public string Nombre { get; set; }
         public string Deporte { get; set; }
         public int Edad { get; set; }
+        public string MostrarCadena
+        { get
+            {
+                return $"Nombre: {Nombre}, Edad: {Edad}, Deporte: {Deporte}, Puntuacion: {Puntuacion}.";
+            }
+        }
 
         public Deportista()
         {
