@@ -1,22 +1,28 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using System.Text;
 using Xamarin.Forms;
 
 namespace XamarinFormsKatas.Katas_Logic.Kata_LA
 {
-    public class BaseViewModel : BindableObject
+    public abstract class BaseViewModel : BindableObject
     {
-        private string _nombre;
-
-        public string Nombre
+        public void SetChanged<T>(ref T refValue, T value, [CallerMemberName] string propertyName = "")
         {
-            get => _nombre;
-            set
+            if (!value.Equals(refValue))
             {
-                _nombre = value;
-                OnPropertyChanged();
+                refValue = value;
+                OnPropertyChanged(propertyName);
             }
         }
+
+        public virtual void OnAppearing()
+        {
+        }
+        public virtual void OnDisappering()
+        {
+        }
+
     }
 }

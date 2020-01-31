@@ -98,5 +98,9 @@ namespace XamarinFormsKatas.Katas_UI.Kata_a
         {
             ((NavigationPage)this.Parent).PushAsync(new Katas_Logic.Kata_LB.KataLB());
         }
+        private void PantallaLC(object sender, EventArgs e)
+        {
+            ((NavigationPage)this.Parent).PushAsync(new Katas_Logic.Kata_LC.KataLC());
+        }
     }
 }
