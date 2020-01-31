@@ -95,6 +95,11 @@
                         HeightRequest="80" 
                         x:Name="botonMap"
                         Clicked="PantallaMap"/>
+                <Button Text="Boton LB"
+                        WidthRequest="110"
+                        HeightRequest="80" 
+                        x:Name="botonLB"
+                        Clicked="PantallaLB"/>
 
             </StackLayout>
 
