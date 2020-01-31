@@ -26,6 +26,7 @@
             <Button x:Name="btn18" Text="Maps"/>
             <Button x:Name="btn19" Text="Horizontal Scroll"/>
             <Button x:Name="btn20" Text="Switch"/>
+            <Button x:Name="btn21" Text="Picker"/>
         </StackLayout>
 
     </ScrollView>
