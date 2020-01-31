@@ -20,7 +20,7 @@ namespace XamarinFormsKatas.Katas_UI.Kata_t
             deportista dep2 = new deportista(30, 29, "hombre", "tenis");
             listaDepor.Add(dep1);
             listaDepor.Add(dep2);
-            listaDeportista.ItemsSource = listaDepor;
+            listaDeportista.ItemsSource = listaDepor.Where(x=>x.edad>23&&x.deporte.Contains("T")&&x.puntuacion==30);
 
         }
 	}
