@@ -22,13 +22,13 @@ namespace XamarinFormsKatas.Katas_UI.Kata_j
             if (Pass.Text == String.Empty)
             {
                 Entry errorcito = new Entry();
-                errorcito.Text = "No dejes vacio el user o iras al infierno de lleida";
+                errorcito.Text = "No dejes vacio el user";
                 contenedor.Children.Add(errorcito);
             }
             if (Pass.Text==String.Empty)
             {
                 Entry errorcito = new Entry();
-                errorcito.Text = "No dejes vacia la contraseña o iras al infierno de lleida";
+                errorcito.Text = "No dejes vacia la contraseña";
                 contenedor.Children.Add(errorcito);
             }
 
