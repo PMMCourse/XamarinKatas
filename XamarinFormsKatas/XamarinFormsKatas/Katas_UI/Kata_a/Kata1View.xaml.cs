@@ -12,6 +12,7 @@ using XamarinFormsKatas.Katas_UI.Kata_c;
 using XamarinFormsKatas.Katas_UI.Kata_g;
 using XamarinFormsKatas.Katas_UI.Kata_h;
 using XamarinFormsKatas.Katas_UI.Kata_i;
+using XamarinFormsKatas.Katas_UI.Kata_j;
 
 namespace XamarinFormsKatas.Katas.Kata1
 {
@@ -41,6 +42,10 @@ namespace XamarinFormsKatas.Katas.Kata1
             ButI.Clicked += (sender, e) =>
             {
                 Navigation.PushAsync(new KataI());
+            };
+            ButJ.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new KataJ());
             };
         }
     }
