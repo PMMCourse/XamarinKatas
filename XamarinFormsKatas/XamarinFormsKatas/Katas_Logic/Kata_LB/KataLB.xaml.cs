@@ -31,11 +31,9 @@ namespace XamarinFormsKatas.Katas_Logic.Kata_LB
         private async void httpGet() {
             var client = new HttpClient();
             var url = "https://jsonplaceholder.typicode.com/posts";
-            HttpResponseMessage response = await client.GetAsync(url);
-            response.EnsureSuccessStatusCode();
-            var resp = await response.Content.ReadAsStringAsync();
-            List<Articulos> lista = JsonConvert.DeserializeObject<List<Articulos>>(resp);
-            listaVista.ItemsSource = lista;
+            var resp2 = await client.GetStringAsync(url);
+            List<Articulos> lista2 = JsonConvert.DeserializeObject<List<Articulos>>(resp2);
+            listaVista.ItemsSource = lista2;
             //initializeAkavache();
         }
         private void initializeAkavache() {
