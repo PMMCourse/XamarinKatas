@@ -14,82 +14,88 @@
                         WidthRequest="110"
                         HeightRequest="80" 
                         x:Name="botonB"
-                        />
+                        Clicked="PantallaB"/>
                 <Button Text="Boton C"
                         WidthRequest="110"
                         HeightRequest="80" 
                         x:Name="botonC"
-                        />
+                        Clicked="PantallaC"/>
                 <Button Text="Boton D"
                         WidthRequest="110"
                         HeightRequest="80"  
                         x:Name="botonD"
-                        />
+                        Clicked="PantallaD"/>
                 <Button Text="Boton F"
                         WidthRequest="110"
                         HeightRequest="80" 
                         x:Name="botonE"
-                        />
+                        Clicked="PantallaE"/>
                 <Button Text="Boton G"
                         WidthRequest="110"
                         HeightRequest="80" 
                         x:Name="botonF"
-                        />
+                        Clicked="PantallaG"/>
                 <Button Text="Boton H"
                         WidthRequest="110"
                         HeightRequest="80" 
                         x:Name="botonH"
-                        />
+                        Clicked="PantallaH"/>
                 <Button Text="Boton I"
                         WidthRequest="110"
                         HeightRequest="80" 
                         x:Name="botonI"
-                        />
+                        Clicked="PantallaI"/>
                 <Button Text="Boton K"
                         WidthRequest="110"
                         HeightRequest="80" 
                         x:Name="botonK"
-                        />
+                        Clicked="PantallaK"/>
                 <Button Text="Boton M"
                         WidthRequest="110"
                         HeightRequest="80" 
                         x:Name="botonM"
-                        />
+                        Clicked="PantallaM"/>
                 <Button Text="Boton N"
                         WidthRequest="110"
                         HeightRequest="80" 
                         x:Name="botonN"
-                        />
+                        Clicked="PantallaN"/>
                 <Button Text="Boton P"
                         WidthRequest="110"
                         HeightRequest="80" 
                         x:Name="botonP"
-                        />
+                        Clicked="PantallaP"/>
                 <Button Text="Boton S"
                         WidthRequest="110"
                         HeightRequest="80" 
                         x:Name="botonS"
-                        />
+                        Clicked="PantallaS"/>
                 <Button Text="Boton V"
                         WidthRequest="110"
                         HeightRequest="80" 
                         x:Name="botonV"
-                        />
+                        Clicked="PantallaV"/>
                 <Button Text="Boton X"
                         WidthRequest="110"
                         HeightRequest="80" 
                         x:Name="botonX"
-                        />
+                        Clicked="PantallaX"/>
                 <Button Text="Boton T"
                         WidthRequest="110"
                         HeightRequest="80" 
                         x:Name="botonT"
-                        />
+                        Clicked="PantallaT"/>
                 <Button Text="Boton O"
                         WidthRequest="110"
                         HeightRequest="80" 
                         x:Name="botonO"
-                        />
+                        Clicked="PantallaO"/>
+                <Button Text="Boton U Mapa"
+                        WidthRequest="110"
+                        HeightRequest="80" 
+                        x:Name="botonMap"
+                        Clicked="PantallaMap"/>
+
             </StackLayout>
 
         </ScrollView>

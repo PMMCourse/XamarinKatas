@@ -15,22 +15,6 @@ namespace XamarinFormsKatas.Katas_UI.Kata_a
         public KataA()
         {
             InitializeComponent();
-            botonB.Clicked += PantallaB;
-            botonC.Clicked += PantallaC;
-            botonD.Clicked += PantallaD;
-            botonE.Clicked += PantallaE;
-            botonF.Clicked += PantallaG;
-            botonH.Clicked += PantallaH;
-            botonI.Clicked += PantallaI;
-            botonK.Clicked += PantallaK;
-            botonM.Clicked += PantallaM;
-            botonN.Clicked += PantallaN;
-            botonP.Clicked += PantallaP;
-            botonS.Clicked += PantallaS;
-            botonV.Clicked += PantallaV;
-            botonX.Clicked += PantallaX;
-            botonT.Clicked += PantallaT;
-            botonO.Clicked += PantallaO;
         }
 
         private void PantallaG(object sender, EventArgs e)
@@ -103,6 +87,10 @@ namespace XamarinFormsKatas.Katas_UI.Kata_a
         private void PantallaO(object sender, EventArgs e)
         {
             ((NavigationPage)this.Parent).PushAsync(new Kata_o.KataO());
+        }
+        private void PantallaMap(object sender, EventArgs e)
+        {
+            ((NavigationPage)this.Parent).PushAsync(new Kata_u.KataU());
         }
 
     }
