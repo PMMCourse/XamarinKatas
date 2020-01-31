@@ -16,7 +16,7 @@
                 <Button Text="Kata_f" BackgroundColor="Green" Clicked="BotonKata_f"></Button>
                 <Button Text="Kata_g" BackgroundColor="Green" Clicked="BotonKata_g"></Button>
                 <Button Text="Kata_h" BackgroundColor="Green" Clicked="BotonKata_h"></Button>
-                <Button Text="Kata_i" Clicked="BotonKata_i"></Button>
+                <Button Text="Kata_i" BackgroundColor="Green" Clicked="BotonKata_i"></Button>
                 <Button Text="Kata_j" Clicked="BotonKata_j"></Button>
                 <Button Text="Kata_k" Clicked="BotonKata_k"></Button>
                 <Button Text="Kata_l" Clicked="BotonKata_l"></Button>

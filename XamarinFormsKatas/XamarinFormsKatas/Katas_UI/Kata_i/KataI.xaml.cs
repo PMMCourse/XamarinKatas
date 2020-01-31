@@ -12,9 +12,16 @@ namespace XamarinFormsKatas.Katas_UI.Kata_i
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class KataI : ContentPage
 	{
-		public KataI ()
+		public KataI()
 		{
-			InitializeComponent ();
+			InitializeComponent();
+
+		}
+
+		private void inputOrigen_TextChanged(object sender, TextChangedEventArgs e)
+		{
+			//le asigno en tiempo real el contenido de origen al placeholder de destino
+			inputDestino.Placeholder = inputOrigen.Text;
 		}
 	}
 }
