@@ -4,7 +4,15 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_l.KataL">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <BoxView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"  Color="Teal">
+                <BoxView.GestureRecognizers>
+                    <SwipeGestureRecognizer Direction="Up" Swiped="accionRealizada" />
+                    <SwipeGestureRecognizer Direction="Down" Swiped="accionRealizada" />
+                    <SwipeGestureRecognizer Direction="Left" Swiped="accionRealizada" />
+                    <SwipeGestureRecognizer Direction="Right" Swiped="accionRealizada" />
+                </BoxView.GestureRecognizers>
+            </BoxView>
+            <Label x:Name="labelAdivino" Text="Label adivino"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
