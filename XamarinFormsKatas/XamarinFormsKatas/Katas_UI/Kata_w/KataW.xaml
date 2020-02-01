@@ -3,10 +3,24 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinFormsKatas.Katas_UI.Kata_w.KataW">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <StackLayout Orientation="Horizontal">
+                <Entry WidthRequest="300" x:Name="EControl"/>
+                <Switch x:Name="switchE"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label WidthRequest="300" Text="texto" x:Name="LControl"/>
+                <Switch x:Name="switchL"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Button WidthRequest="300" x:Name="BControl"/>
+                <Switch x:Name="switchB"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <ActivityIndicator IsVisible="True" IsEnabled="True" IsRunning="True" x:Name="AControl"/>
+                <Switch x:Name="switchA"/>
+            </StackLayout>
+            <Button VerticalOptions="Center" HorizontalOptions="Center" Text="Envio" WidthRequest="200" Clicked="clickBoton"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
