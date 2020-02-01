@@ -27,6 +27,8 @@
             <Button x:Name="btn19" Text="Horizontal Scroll"/>
             <Button x:Name="btn20" Text="Switch"/>
             <Button x:Name="btn21" Text="Picker"/>
+            <Button x:Name="btn22" Text="labels salto de linea"/>
+            <Button x:Name="btn23" Text="labels en columnas"/>
         </StackLayout>
 
     </ScrollView>
