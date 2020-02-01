@@ -5,7 +5,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Button x:Name="BtnRotation" VerticalOptions="CenterAndExpand" 
-                    HorizontalOptions="CenterAndExpand" WidthRequest="100" HeightRequest="100" Text="Pulsame!"/>
+                    HorizontalOptions="CenterAndExpand" WidthRequest="250" HeightRequest="250" Text="Pulsame!"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
