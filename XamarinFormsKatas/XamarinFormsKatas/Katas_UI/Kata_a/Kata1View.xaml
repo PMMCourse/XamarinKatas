@@ -30,6 +30,7 @@
             <Button x:Name="btn22" Text="labels salto de linea"/>
             <Button x:Name="btn23" Text="labels en columnas"/>
             <Button x:Name="btn24" Text="Llamada Json HTTP"/>
+            <Button x:Name="btn25" Text="Boton command"/>
         </StackLayout>
 
     </ScrollView>

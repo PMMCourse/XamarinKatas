@@ -16,12 +16,15 @@ namespace XamarinFormsKatas.Katas_Logic.Kata_LB
 		public KataLB ()
 		{
 			InitializeComponent ();
+            Ai.IsRunning = true;
+
             GetJSON();
 
         }
         
         public async void GetJSON()
         {
+        
             // Check network status  
             if (NetworkCheck.IsInternet())
             {
@@ -42,6 +45,7 @@ namespace XamarinFormsKatas.Katas_Logic.Kata_LB
             {
                 await DisplayAlert("JSONParsing", "No network is available.", "Ok");
             }
+            Sl.Children.Remove(Ai);
         }
         
     }
