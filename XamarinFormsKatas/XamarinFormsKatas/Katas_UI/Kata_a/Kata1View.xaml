@@ -35,6 +35,7 @@
             <Button x:Name="btn25" Text="Boton command"/>
             <Button x:Name="btn26" Text="Navigation command"/>
             <Button x:Name="btn27" Text="entrys color"/>
+            <Button x:Name="btn28" Text="Deportista Linq MVVM"/>
         </StackLayout>
 
     </ScrollView>
