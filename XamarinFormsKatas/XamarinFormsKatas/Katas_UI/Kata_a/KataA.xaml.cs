@@ -69,7 +69,7 @@ namespace XamarinFormsKatas.Katas_UI.Kata_a
         }
         public void BotonKata_n(object sender, EventArgs args)
         {
-            Navigation.PushAsync(new Katas_UI.Kata_n.KataN());
+            Navigation.PushAsync(new Katas_UI.Kata_n.kataNtabbedPage());
         }
         public void BotonKata_o(object sender, EventArgs args)
         {
