@@ -19,6 +19,7 @@ namespace XamarinFormsKatas.Katas_UI.Kata_i
 		public KataI ()
 		{
 			InitializeComponent ();
+			ListaNombre.ItemsSource = person;
 		}
 
 		private void SearchBar_SearchButtonPressed(object sender, EventArgs e)

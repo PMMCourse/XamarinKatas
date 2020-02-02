@@ -12,9 +12,20 @@ namespace XamarinFormsKatas.Katas_UI.Kata_f
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class KataF : ContentPage
 	{
-		public KataF ()
+		List<string> person = new List<string>
 		{
-			InitializeComponent ();
+			"chema", "juanca", "joselu", "juanki"
+		};
+		public KataF()
+		{
+			InitializeComponent();
+			ListaNombre.ItemsSource = person;
+		}
+
+		private void SearchBar_SearchButtonPressed(object sender, EventArgs e)
+		{
+			var keyword = MainSearchBar.Text;
+			ListaNombre.ItemsSource = person.Where(person => person.ToLower().Contains(keyword));
 		}
 	}
 }
