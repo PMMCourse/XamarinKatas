@@ -28,14 +28,19 @@ namespace XamarinFormsKatas.Katas_UI.Kata_l
             label.Text = "Has hecho doble-tap!";
         }
 
-        private void SwipeGestureRecognizer_Swiped_L(object sender, SwipedEventArgs e)
+        private void Swiped_L(object sender, SwipedEventArgs e)
         {
             label.Text = "Has hecho swipe a la izquierda!";
         }
 
-        private void SwipeGestureRecognizer_Swiped_R(object sender, SwipedEventArgs e)
+        private void Swiped_R(object sender, SwipedEventArgs e)
         {
             label.Text = "Has hecho swipe a la derecha!";
+        }
+
+        private void SwipeGestureRecognizer_Swiped(object sender, SwipedEventArgs e)
+        {
+
         }
     }
 }

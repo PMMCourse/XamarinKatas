@@ -5,8 +5,8 @@
     <ContentPage.Content>
         <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" >
             <StackLayout.GestureRecognizers>
-                <SwipeGestureRecognizer Direction="Left" Swiped="SwipeGestureRecognizer_Swiped"/>
-                <SwipeGestureRecognizer Direction="Right" Swiped="SwipeGestureRecognizer_Swiped_R"/>
+                <SwipeGestureRecognizer Direction="Left" Swiped="Swiped_L"/>
+                <SwipeGestureRecognizer Direction="Right" Swiped="Swiped_R"/>
                 <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
                 <PinchGestureRecognizer PinchUpdated="PinchGestureRecognizer_PinchUpdated"/>
             </StackLayout.GestureRecognizers>
