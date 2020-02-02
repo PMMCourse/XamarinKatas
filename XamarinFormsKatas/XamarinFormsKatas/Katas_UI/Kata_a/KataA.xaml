@@ -24,7 +24,7 @@
                 <Button Text="Kata_n" BackgroundColor="Green" Clicked="BotonKata_n"></Button>
                 <Button Text="Kata_o" BackgroundColor="Green" Clicked="BotonKata_o"></Button>
                 <Button Text="Kata_p" BackgroundColor="Green" Clicked="BotonKata_p"></Button>
-                <Button Text="Kata_q" BackgroundColor="Orange" Clicked="BotonKata_q"></Button>
+                <Button Text="Kata_q" BackgroundColor="Green" Clicked="BotonKata_q"></Button>
                 <Button Text="Kata_r" BackgroundColor="Orange" Clicked="BotonKata_r"></Button>
                 <Button Text="Kata_s" BackgroundColor="Orange" Clicked="BotonKata_s"></Button>
                 <Button Text="Kata_t" BackgroundColor="Orange" Clicked="BotonKata_t"></Button>
