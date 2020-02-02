@@ -16,5 +16,26 @@ namespace XamarinFormsKatas.Katas_UI.Kata_l
 		{
 			InitializeComponent ();
 		}
-	}
+
+    
+        private void PinchGestureRecognizer_PinchUpdated(object sender, PinchGestureUpdatedEventArgs e)
+        {
+            label.Text = "Has hecho pinch!";
+        }
+
+        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            label.Text = "Has hecho doble-tap!";
+        }
+
+        private void SwipeGestureRecognizer_Swiped_L(object sender, SwipedEventArgs e)
+        {
+            label.Text = "Has hecho swipe a la izquierda!";
+        }
+
+        private void SwipeGestureRecognizer_Swiped_R(object sender, SwipedEventArgs e)
+        {
+            label.Text = "Has hecho swipe a la derecha!";
+        }
+    }
 }
