@@ -4,9 +4,8 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_p.KataP">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <ActivityIndicator x:Name="cargar" Color="Red" IsRunning="False"></ActivityIndicator>
+            <Button Clicked="Button_Clicked" Text="activity indicator"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

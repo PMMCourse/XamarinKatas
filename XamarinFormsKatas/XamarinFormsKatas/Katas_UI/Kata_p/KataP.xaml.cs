@@ -12,9 +12,18 @@ namespace XamarinFormsKatas.Katas_UI.Kata_p
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class KataP : ContentPage
 	{
-		public KataP ()
+		public KataP()
 		{
-			InitializeComponent ();
+			InitializeComponent();
+		}
+
+		private void Button_Clicked(object sender, EventArgs e)
+		{
+			cargar.IsRunning = true;
+			this.IsEnabled = false;
+			Task.Delay(5000);
+			cargar.IsRunning = false;
+			this.IsEnabled = true;
 		}
 	}
 }
