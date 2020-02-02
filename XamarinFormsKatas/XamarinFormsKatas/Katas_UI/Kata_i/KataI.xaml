@@ -4,14 +4,8 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_i.KataI">
     <ContentPage.Content>
         <StackLayout>
-            <SearchBar x:Name="MainSearchBar" SearchButtonPressed="SearchBar_SearchButtonPressed"/>
-            <ListView x:Name="ListaNombre">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <TextCell Text="{Binding .}"/>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
+            <Entry x:Name="entryPlace" TextChanged="TextChangedPlaceHolder"/>
+            <Entry x:Name="entryText" Placeholder="{Binding entryPlace}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

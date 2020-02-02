@@ -34,10 +34,6 @@ namespace XamarinFormsKatas.Katas_UI.Kata_d
 			}
 		}
 
-		private void SearchBar_SearchButtonPressed(object sender, EventArgs e)
-		{
-			var keyword = MainSearchBar.Text;
-			ListaNombre.ItemsSource = person.Where(person => person.ToLower().Contains(keyword));
-		}
+		
 	}
 }
