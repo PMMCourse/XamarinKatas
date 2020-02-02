@@ -6,6 +6,7 @@
     <ScrollView>
 
         <StackLayout>
+            <Label HorizontalOptions="CenterAndExpand" FontSize="26" Text="UI"></Label>
             <Button x:Name="btn1" Text="Boton redondo"/>
             <Button x:Name="btn2" Text="Master Detail Page"/>
             <Button x:Name="btn3" Text="Listas"/>
@@ -29,9 +30,11 @@
             <Button x:Name="btn21" Text="Picker"/>
             <Button x:Name="btn22" Text="labels salto de linea"/>
             <Button x:Name="btn23" Text="labels en columnas"/>
+            <Label FontSize="26" HorizontalOptions="CenterAndExpand" Text="LOGIC"></Label>
             <Button x:Name="btn24" Text="Llamada Json HTTP"/>
             <Button x:Name="btn25" Text="Boton command"/>
             <Button x:Name="btn26" Text="Navigation command"/>
+            <Button x:Name="btn27" Text="entrys color"/>
         </StackLayout>
 
     </ScrollView>
