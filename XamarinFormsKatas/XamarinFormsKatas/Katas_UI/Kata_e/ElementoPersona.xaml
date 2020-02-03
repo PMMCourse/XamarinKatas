@@ -9,6 +9,7 @@
         <StackLayout Orientation="Vertical" >
             <Image Source="https://www.elbrinner.com/img/images/blog/xamarin_grande.png" WidthRequest="300"/>
             <Label x:Name="labelNombre" Text="{Binding nombre}" TextColor="Black" FontSize="36" HorizontalOptions="Center"/>
+            <Label x:Name="labelEdad" Text="{Binding edad}" TextColor="Black" FontSize="36" HorizontalOptions="Center"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

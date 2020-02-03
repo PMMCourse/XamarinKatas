@@ -3,9 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinFormsKatas.Katas_UI.Kata_s.KataS">
     <ContentPage.Content>
-        <FlexLayout x:Name="flex" Direction="Column">
-            <BoxView x:Name="box1" FlexLayout.Grow="1" BackgroundColor="Red"/>
-            <BoxView x:Name="box2" FlexLayout.Grow="2" BackgroundColor="Green"/>
-        </FlexLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*">
+                </RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*">
+                </ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <BoxView BackgroundColor="Red" Grid.Row="0" Grid.Column="0"/>
+            <BoxView BackgroundColor="Yellow" Grid.Row="0" Grid.Column="1"/>
+            <BoxView BackgroundColor="Red" Grid.Row="1" Grid.Column="0"/>
+            <BoxView BackgroundColor="Yellow" Grid.Row="1" Grid.Column="1"/>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

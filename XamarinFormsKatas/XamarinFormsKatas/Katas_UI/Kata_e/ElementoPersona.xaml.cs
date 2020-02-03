@@ -22,7 +22,8 @@ namespace XamarinFormsKatas.Katas_UI.Kata_e
 
         private void insertOnControllers()
         {
-            labelNombre.Text=person.nombre;
+            labelNombre.Text= person.nombre;
+            labelEdad.Text = person.edad.ToString();
         }
     }
 }
