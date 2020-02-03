@@ -20,7 +20,7 @@ namespace XamarinFormsKatas.Katas.Kata1 {
                 Navigation.PushAsync(new Katas_UI.Kata_b.KataB());
             };
             button_c.Clicked += (sender, e) => {
-                Navigation.PushAsync(new Katas_UI.Kata_c.KataC());
+                Navigation.PushAsync(new Katas_UI.Kata_c.KataC_Detail());
             };
             button_d.Clicked += (sender, e) => {
                 Navigation.PushAsync(new Katas_UI.Kata_d.KataD());
@@ -30,6 +30,15 @@ namespace XamarinFormsKatas.Katas.Kata1 {
             };
             button_f.Clicked += (sender, e) => {
                 Navigation.PushAsync(new Katas_UI.Kata_f.KataF());
+            };
+            button_g.Clicked += (sender, e) => {
+                Navigation.PushAsync(new Katas_UI.Kata_g.KataG());
+            };
+            button_h.Clicked += (sender, e) => {
+                Navigation.PushAsync(new Katas_UI.Kata_h.KataH());
+            };
+            button_i.Clicked += (sender, e) => {
+                Navigation.PushAsync(new Katas_UI.Kata_i.KataI());
             };
         }
     }
