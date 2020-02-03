@@ -6,12 +6,12 @@
         <StackLayout>
             <Grid ColumnSpacing="0" RowSpacing="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="Brown">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
+                    <RowDefinition Height="1*" />
+                   
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="1*" />
+                    
                 </Grid.ColumnDefinitions>
                 <BoxView BackgroundColor="Red" Grid.Row="0" Grid.Column="0" />
                 <BoxView BackgroundColor="blue" Grid.Row="0" Grid.Column="1" />
