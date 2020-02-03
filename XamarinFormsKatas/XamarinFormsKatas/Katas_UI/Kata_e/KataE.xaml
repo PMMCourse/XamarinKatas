@@ -4,7 +4,7 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_e.KataE">
     <ContentPage.Content>
         <StackLayout>
-            <ListView ItemSelected="ListView_ItemSelected"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" SeparatorColor="Black" IsPullToRefreshEnabled="False" x:Name="vistaLista">
+            <ListView ItemSelected = "ListView_ItemSelected"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" SeparatorColor="Black" IsPullToRefreshEnabled="False" x:Name="vistaLista">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
