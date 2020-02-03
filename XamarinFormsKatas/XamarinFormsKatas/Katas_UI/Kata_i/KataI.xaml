@@ -4,9 +4,8 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_i.KataI">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Entry x:Name="Insertar" TextChanged="TextChanged" WidthRequest="400"/>
+            <Entry x:Name="PlaceHolder" WidthRequest="400"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
