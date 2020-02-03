@@ -13,9 +13,9 @@ namespace XamarinFormsKatas.Katas_UI.Kata_e
 	public partial class KataE : ContentPage
 	{
 		public IList<Persona> p { get; private set; }
-		public KataE ()
+		public KataE()
 		{
-			InitializeComponent ();
+			InitializeComponent();
 
 			p = new List<Persona>();
 			p.Add(new Persona("paco", "20", "http://www.egrupos.net/albumPhoto/1293313/photo_1.jpg"));
