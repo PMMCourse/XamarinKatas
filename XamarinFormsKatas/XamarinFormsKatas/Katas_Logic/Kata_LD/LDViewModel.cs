@@ -10,6 +10,8 @@ namespace XamarinFormsKatas.Katas_Logic.Kata_LD
 {
     public class LDViewModel : BaseViewModel
     {
+        public INavigation Navegacion { get; set; }
+
         private string _textoParametro;
         public string TextoParametro
         {
@@ -20,6 +22,15 @@ namespace XamarinFormsKatas.Katas_Logic.Kata_LD
         private Command _navegar;
         public ICommand Navegar => _navegar;
 
+        public LDViewModel(INavigation nav)
+        {
+            Navegacion = nav;
+            _navegar = new Command(async () => await navegando());
+        }
 
+        public async Task navegando()
+        {
+            await Navegacion.PushAsync(new VentanaDos(TextoParametro));
+        }
     }
 }

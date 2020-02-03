@@ -12,9 +12,10 @@ namespace XamarinFormsKatas.Katas_Logic.Kata_LD
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class VentanaDos : ContentPage
     {
-        public VentanaDos()
+        public VentanaDos(string texto)
         {
             InitializeComponent();
+            BindingContext = new VentanaDosViewModel(texto);
         }
     }
 }

@@ -7,9 +7,9 @@
              x:Class="XamarinFormsKatas.Katas_Logic.Kata_LD.VentanaDos">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+
+            <Entry Text="{Binding Texto}"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
