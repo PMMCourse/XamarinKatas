@@ -5,7 +5,6 @@
     <ContentPage.Content>
         <StackLayout>
 
-            <Label Text="{Binding Texto}" WidthRequest="100" HeightRequest="60"/>
             <Button Text="Pulsar" Command="{Binding GenerarTexto}" WidthRequest="100" HeightRequest="100"/>
 
         </StackLayout>

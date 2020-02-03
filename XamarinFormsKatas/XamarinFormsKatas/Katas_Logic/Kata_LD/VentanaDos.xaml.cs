@@ -9,13 +9,12 @@ using Xamarin.Forms.Xaml;
 
 namespace XamarinFormsKatas.Katas_Logic.Kata_LD
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class KataLD : ContentPage
-	{
-		public KataLD ()
-		{
-			InitializeComponent ();
-            BindingContext = new LDViewModel();
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class VentanaDos : ContentPage
+    {
+        public VentanaDos()
+        {
+            InitializeComponent();
         }
-	}
+    }
 }

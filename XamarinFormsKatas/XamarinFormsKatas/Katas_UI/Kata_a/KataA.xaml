@@ -105,6 +105,11 @@
                         HeightRequest="80" 
                         x:Name="botonLC"
                         Clicked="PantallaLC"/>
+                <Button Text="Boton LD"
+                        WidthRequest="110"
+                        HeightRequest="80" 
+                        x:Name="botonLD"
+                        Clicked="PantallaLD"/>
 
             </StackLayout>
 

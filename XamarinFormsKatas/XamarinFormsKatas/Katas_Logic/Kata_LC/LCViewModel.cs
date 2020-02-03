@@ -9,13 +9,6 @@ namespace XamarinFormsKatas.Katas_Logic.Kata_LC
 {
     public class LCViewModel : BaseViewModel
     {
-        private string _texto;
-        public string Texto
-        {
-            get => _texto;
-            set => SetChanged(ref _texto, value);
-        }
-
         private Command _generarTexto;
         public ICommand GenerarTexto => _generarTexto;
 
@@ -24,9 +17,9 @@ namespace XamarinFormsKatas.Katas_Logic.Kata_LC
             _generarTexto = new Command(Generar);
         }
 
-        private void Generar(object obj)
+        private async void Generar(object obj)
         {
-            Texto = "Se ha generado el texto";          
+            await Application.Current.MainPage.DisplayAlert("Titulo", "Se ha generado el texto", "Cancelar");
         }
     }
 }

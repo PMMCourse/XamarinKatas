@@ -4,9 +4,10 @@
              x:Class="XamarinFormsKatas.Katas_Logic.Kata_LD.KataLD">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+
+            <Entry Text="{Binding TextoParametro}" WidthRequest="100" HeightRequest="40"/>
+            <Button Text="Pulsame" Command="{Binding Navegar}" WidthRequest="100" HeightRequest="60"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
