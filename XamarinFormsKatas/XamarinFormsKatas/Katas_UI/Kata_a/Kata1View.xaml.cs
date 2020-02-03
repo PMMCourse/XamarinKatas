@@ -93,6 +93,9 @@ namespace XamarinFormsKatas.Katas.Kata1
             buttonLB.Clicked += (sender, e) => {
                 Navigation.PushAsync(new Katas_Logic.Kata_LB.KataLB());
             };
+            buttonLC.Clicked += (sender, e) => {
+                Navigation.PushAsync(new Katas_Logic.Kata_LC.KataLC());
+            };
         }
 	}
 }

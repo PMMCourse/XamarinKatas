@@ -21,6 +21,5 @@ namespace XamarinFormsKatas.Katas_UI.Kata_r
             get => _items;
             set => SetChanged(ref _items, value);
         }
-
     }
 }

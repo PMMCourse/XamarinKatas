@@ -30,6 +30,7 @@
             <Button Text="EJER Y" x:Name="buttonY"></Button>
             <Button Text="EJER Z" x:Name="buttonZ"></Button>
             <Button Text="EJER LB" x:Name="buttonLB"></Button>
+            <Button Text="EJER LC" x:Name="buttonLC"></Button>
         </StackLayout>
     </ScrollView>
 </ContentPage>
