@@ -26,7 +26,7 @@
                 <Button Text="S" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
                 <Button Text="T" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
                 <Button Text="U" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
-                <Button Text="V" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
+                <Button Text="V" x:Name="ButV" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
                 <Button Text="W" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
                 <Button Text="X" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
                 <Button Text="Y" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
