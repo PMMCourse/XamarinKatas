@@ -4,7 +4,7 @@
              x:Class="XamarinFormsKatas.Katas_Logic.Kata_LC.KataLC">
     <ContentPage.Content>
         <StackLayout>
-            <Button Text="Message" Command="{Binding PerformMessage}"/>
+            <Button Text="Message Alert" Command="{Binding PerformMessage}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
