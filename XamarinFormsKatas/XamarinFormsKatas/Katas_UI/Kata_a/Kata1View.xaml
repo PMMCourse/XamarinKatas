@@ -17,7 +17,7 @@
                 <Button Text="J" x:Name="ButJ" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
                 <Button Text="K" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
                 <Button Text="L" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
-                <Button Text="M" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
+                <Button Text="M" x:Name="ButM" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
                 <Button Text="N" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
                 <Button Text="O" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
                 <Button Text="P" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>

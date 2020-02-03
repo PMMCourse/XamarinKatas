@@ -16,5 +16,12 @@ namespace XamarinFormsKatas.Katas_UI.Kata_m
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Label labelcito = new Label();
+            labelcito.Text = "Me has añadido";
+            Cotenedor.Children.Add(labelcito);
+        }
+    }
 }
