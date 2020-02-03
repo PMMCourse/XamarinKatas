@@ -6,8 +6,8 @@ namespace XamarinFormsKatas.Katas_UI.Kata_r
 {
     public class Proveedor:Persona
     {
-        public string nombre;
-        public string producto;
+        public string nombre { get; set; }
+        public string producto { get; set; }
 
         public Proveedor(string nombre, string producto)
         {

@@ -6,8 +6,8 @@ namespace XamarinFormsKatas.Katas_UI.Kata_r
 {
     public class Cliente: Persona
     {
-        public string nombre;
-        public string dni;
+        public string nombre { get; set; }
+        public string dni { get; set; }
 
         public Cliente(string nombre,string dni) {
             this.nombre = nombre;

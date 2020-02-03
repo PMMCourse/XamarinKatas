@@ -7,13 +7,20 @@
         <ResourceDictionary>
             <DataTemplate x:Key="ClienteTemplate">
                 <ViewCell>
-                    <Label Text="{Binding Cliente.nombre}"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="{Binding nombre}"/>
+                        <Label Text="{Binding dni}"/>
+                    </StackLayout>
+                    
                 </ViewCell>
             </DataTemplate>
 
             <DataTemplate x:Key="ProveedorTemplate">
                 <ViewCell>
-                    <Label Text="{Binding nombre}"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="{Binding nombre}"/>
+                        <Label Text="{Binding producto}"/>
+                    </StackLayout>
                 </ViewCell>
             </DataTemplate>
 
@@ -23,6 +30,7 @@
         </ResourceDictionary>
     </ContentPage.Resources>
     <ContentPage.Content>
-        <ListView x:Name="listaPersonas" ItemTemplate="{StaticResource SelectorPersona}"/>
+        <ListView ItemTemplate="{StaticResource SelectorPersona}" 
+                  ItemsSource="{Binding Items}"/>
     </ContentPage.Content>
 </ContentPage>
