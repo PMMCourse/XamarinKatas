@@ -31,6 +31,7 @@
             <Button Text="EJER Z" x:Name="buttonZ"></Button>
             <Button Text="EJER LB" x:Name="buttonLB"></Button>
             <Button Text="EJER LC" x:Name="buttonLC"></Button>
+            <Button Text="EJER LF" x:Name="buttonLF"></Button>
         </StackLayout>
     </ScrollView>
 </ContentPage>
