@@ -40,6 +40,57 @@ namespace XamarinFormsKatas.Katas.Kata1 {
             button_i.Clicked += (sender, e) => {
                 Navigation.PushAsync(new Katas_UI.Kata_i.KataI());
             };
+            button_j.Clicked += (sender, e) => {
+                Navigation.PushAsync(new Katas_UI.Kata_j.KataJ());
+            };
+            button_k.Clicked += (sender, e) => {
+                Navigation.PushAsync(new Katas_UI.Kata_k.KataK());
+            };
+            button_l.Clicked += (sender, e) => {
+                Navigation.PushAsync(new Katas_UI.Kata_l.KataL());
+            };
+            button_m.Clicked += (sender, e) => {
+                Navigation.PushAsync(new Katas_UI.Kata_m.KataM());
+            };
+            button_n.Clicked += (sender, e) => {
+                Navigation.PushAsync(new Katas_UI.Kata_n.KataN());
+            };
+            button_o.Clicked += (sender, e) => {
+                Navigation.PushAsync(new Katas_UI.Kata_o.KataO());
+            };
+            button_p.Clicked += (sender, e) => {
+                Navigation.PushAsync(new Katas_UI.Kata_p.KataP());
+            };
+            button_q.Clicked += (sender, e) => {
+                Navigation.PushAsync(new Katas_UI.Kata_q.KataQ());
+            };
+            button_r.Clicked += (sender, e) => {
+                Navigation.PushAsync(new Katas_UI.Kata_r.KataR());
+            };
+            button_s.Clicked += (sender, e) => {
+                Navigation.PushAsync(new Katas_UI.Kata_s.KataS());
+            };
+            button_t.Clicked += (sender, e) => {
+                Navigation.PushAsync(new Katas_UI.Kata_t.KataT());
+            };
+            button_u.Clicked += (sender, e) => {
+                Navigation.PushAsync(new Katas_UI.Kata_u.KataU());
+            };
+            button_v.Clicked += (sender, e) => {
+                Navigation.PushAsync(new Katas_UI.Kata_v.KataV());
+            };
+            button_w.Clicked += (sender, e) => {
+                Navigation.PushAsync(new Katas_UI.Kata_w.KataW());
+            };
+            button_x.Clicked += (sender, e) => {
+                Navigation.PushAsync(new Katas_UI.Kata_x.KataX());
+            };
+            button_y.Clicked += (sender, e) => {
+                Navigation.PushAsync(new Katas_UI.Kata_y.KataY());
+            };
+            button_z.Clicked += (sender, e) => {
+                Navigation.PushAsync(new Katas_UI.Kata_z.KataZ());
+            };
         }
     }
 }

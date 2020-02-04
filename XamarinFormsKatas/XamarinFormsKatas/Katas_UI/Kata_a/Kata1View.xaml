@@ -14,6 +14,21 @@
             <Button x:Name="button_i" Text="I"/>
             <Button x:Name="button_j" Text="J"/>
             <Button x:Name="button_k" Text="K"/>
+            <Button x:Name="button_l" Text="L"/>
+            <Button x:Name="button_m" Text="M"/>
+            <Button x:Name="button_n" Text="N"/>
+            <Button x:Name="button_o" Text="O"/>
+            <Button x:Name="button_p" Text="P"/>
+            <Button x:Name="button_q" Text="Q"/>
+            <Button x:Name="button_r" Text="R"/>
+            <Button x:Name="button_s" Text="S"/>
+            <Button x:Name="button_t" Text="T"/>
+            <Button x:Name="button_u" Text="U"/>
+            <Button x:Name="button_v" Text="V"/>
+            <Button x:Name="button_w" Text="W"/>
+            <Button x:Name="button_x" Text="X"/>
+            <Button x:Name="button_y" Text="Y"/>
+            <Button x:Name="button_z" Text="Z"/>
         </StackLayout>
     </ScrollView>
 </ContentPage>
