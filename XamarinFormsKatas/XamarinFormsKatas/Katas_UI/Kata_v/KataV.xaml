@@ -3,10 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinFormsKatas.Katas_UI.Kata_v.KataV">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+        <ScrollView Orientation="Horizontal">
+            <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus vel tortor scelerisque mattis. Praesent nec euismod odio, vel lacinia augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur neque erat, eleifend ac purus at, ornare malesuada ante. In hac habitasse platea dictumst. Aliquam sit amet augue ultricies, hendrerit erat ut, sodales sem. Donec iaculis lacus ac ornare sodales. Morbi tempor imperdiet ex eu scelerisque. Nulla facilisi. Morbi tincidunt odio ut commodo consectetur. Vivamus quis purus eros. Donec id dolor ut odio sagittis tincidunt nec a ex. Aenean vitae diam nec augue feugiat molestie. Nunc a maximus urna."
+                FontSize="Medium"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
