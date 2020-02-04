@@ -12,9 +12,9 @@ namespace XamarinFormsKatas.Katas_UI.Kata_u
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class KataU : ContentPage
 	{
-		public KataU ()
+		public KataU()
 		{
-			InitializeComponent ();
+			InitializeComponent();
 		}
 	}
 }
