@@ -7,7 +7,18 @@
              x:Class="XamarinFormsKatas.Katas_Logic.Kata_LH.View.Page1">
     <ContentPage.Content>
         <StackLayout x:Name="stackControl" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-
+            <StackLayout Orientation="Horizontal">
+                <Entry WidthRequest="300" x:Name="entryControl" IsVisible="{Binding EntrySwitch}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label WidthRequest="300" Text="Label" x:Name="labelControl" IsVisible="{Binding LabelSwitch}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Button WidthRequest="300" x:Name="buttonControl" IsVisible="{Binding ButtonSwitch}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <ActivityIndicator IsEnabled="True" IsRunning="True" x:Name="activityControl" IsVisible="{Binding ActivitySwitch}"/>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
