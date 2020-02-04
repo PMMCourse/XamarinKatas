@@ -24,5 +24,11 @@ namespace XamarinFormsKatas.Katas_UI.Kata_d {
 
             ListViewPersonas.ItemsSource = ListaPersonas;
         }
+
+        private void btnSearch_Clicked(object sender, EventArgs e) {
+            if (inpSearch.Text != null) {
+                ListViewPersonas.ItemsSource = ListaPersonas.Where(x => x.Nombre.ToLower().Contains(inpSearch.Text.ToLower()));
+            }
+        }
     }
 }

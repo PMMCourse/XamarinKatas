@@ -4,6 +4,12 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_d.KataD">
     <ContentPage.Content>
         <ListView x:Name="ListViewPersonas">
+            <ListView.Header>
+            <StackLayout Orientation="Horizontal">
+                <Entry x:Name="inpSearch" WidthRequest="200"></Entry>
+                <Button x:Name="btnSearch" Text="Buscar" Clicked="btnSearch_Clicked"/>
+            </StackLayout>
+            </ListView.Header>
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <TextCell Text="{Binding ToString}"></TextCell>
