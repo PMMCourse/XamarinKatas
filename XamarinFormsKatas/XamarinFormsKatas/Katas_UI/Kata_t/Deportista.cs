@@ -4,10 +4,10 @@ using System.Text;
 
 namespace XamarinFormsKatas.Katas_UI.Kata_t {
     public class Deportista {
-        int Puntuacion { get; set; }
-        int Edad { get; set; }
-        string Nombre { get; set; }
-        string Deporte { get; set; }
+        public int Puntuacion { get; set; }
+        public int Edad { get; set; }
+        public string Nombre { get; set; }
+        public string Deporte { get; set; }
 
         public Deportista(int puntuacion, int edad, string nombre, string deporte) {
             Puntuacion = puntuacion;
