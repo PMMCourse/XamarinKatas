@@ -37,6 +37,17 @@ namespace XamarinFormsKatas.Katas.Kata1
         Button buttonX = new Button();
         Button buttonY = new Button();
         Button buttonZ = new Button();
+        Button buttonLA = new Button();
+        Button buttonLB = new Button();
+        Button buttonLC = new Button();
+        Button buttonLD = new Button();
+        Button buttonLE = new Button();
+        Button buttonLF = new Button();
+        Button buttonLG = new Button();
+        Button buttonLH = new Button();
+        Button buttonLI = new Button();
+        Button buttonLJ = new Button();
+        Button buttonLK = new Button();
         public Kata1View ()
 		{
 			InitializeComponent ();
@@ -139,6 +150,51 @@ namespace XamarinFormsKatas.Katas.Kata1
             buttonZ.Clicked += (sender, e) =>
             {
                 Navigation.PushAsync(new Katas_UI.Kata_z.KataZ());
+            };
+            buttonLA.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_Logic.Kata_LA.KataLA());
+            };
+            buttonLB.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_Logic.Kata_LB.KataLB());
+            };
+            buttonLC.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_Logic.Kata_LC.KataLC());
+            };
+            buttonLD.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_Logic.Kata_LD.KataLD());
+            };
+            buttonLE.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_Logic.Kata_LE.KataLE());
+            };
+            buttonLF.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_Logic.Kata_LF.KataLF());
+            };
+            buttonLG.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_Logic.Kata_LG.KataLG());
+            };
+            buttonLH.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_Logic.Kata_LH.KataLH());
+            };
+            buttonLI.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_Logic.Kata_LI.Kata_LI());
+                
+            };
+            buttonLJ.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_Logic.Kata_LJ.Kata_LJ());
+            };
+            buttonLK.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_Logic.Kata_LK.KataLK());
             };
         }
 	}

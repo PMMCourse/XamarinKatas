@@ -29,6 +29,17 @@
             <Button Text="ejer x" x:Name="btnX"/>
             <Button Text="ejer y" x:Name="btnY"/>
             <Button Text="ejer z" x:Name="btnZ"/>
+            <Button Text="logica a" x:Name="btnLA"/>
+            <Button Text="logica b" x:Name="btnLB"/>
+            <Button Text="logica c" x:Name="btnLC"/>
+            <Button Text="logica d" x:Name="btnLD"/>
+            <Button Text="logica e" x:Name="btnLE"/>
+            <Button Text="logica f" x:Name="btnLF"/>
+            <Button Text="logica g" x:Name="btnLG"/>
+            <Button Text="logica h" x:Name="btnLH"/>
+            <Button Text="logica i" x:Name="btnLI"/>
+            <Button Text="logica j" x:Name="btnLJ"/>
+            <Button Text="logica k" x:Name="btnLK"/>
         </StackLayout>
     </ScrollView>
 </ContentPage>
