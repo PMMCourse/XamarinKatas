@@ -12,9 +12,10 @@ namespace XamarinFormsKatas.Katas_UI.Kata_v
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class KataV : ContentPage
 	{
-		public KataV ()
+		public KataV()
 		{
-			InitializeComponent ();
+			InitializeComponent();
+			contenidoLabel.Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
 		}
 	}
 }

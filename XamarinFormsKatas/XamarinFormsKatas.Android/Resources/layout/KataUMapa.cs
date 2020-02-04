@@ -1,4 +1,5 @@
-﻿using System;
+﻿/*
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,6 +25,7 @@ namespace XamarinFormsKatas.Droid.Resources.layout
             mapFragment.GetMapAsync(this);
 
         }
+        
         public void OnMapReady(GoogleMap map)
         {
             map.MapType = GoogleMap.Normal;//tipo de mapa visualizado
@@ -47,4 +49,4 @@ namespace XamarinFormsKatas.Droid.Resources.layout
             map.AddMarker(MarcaBetis);
         }
     }
-}
+}*/
