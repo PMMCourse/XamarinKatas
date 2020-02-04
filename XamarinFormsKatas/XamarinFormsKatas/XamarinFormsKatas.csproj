@@ -113,7 +113,7 @@
     <EmbeddedResource Update="Katas_UI\Kata_s\KataS.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Katas_UI\Kata_t\KataT.xaml">
+    <EmbeddedResource Update="Katas_UI\Kata_t\View\KataT.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Katas_UI\Kata_u\KataU.xaml">

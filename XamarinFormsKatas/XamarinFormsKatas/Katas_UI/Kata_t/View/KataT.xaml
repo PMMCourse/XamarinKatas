@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinFormsKatas.Katas_UI.Kata_t.KataT">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*">
+                </ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label Text="{Binding Items.nom}" Grid.Column="0"/>
+            <Label Text="{Binding Items.deporte}" Grid.Column="1"/>
+            <Label Text="{Binding Items.puntuacion}" Grid.Column="2"/>
+            <Label Text="{Binding Items.edad}" Grid.Column="3"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

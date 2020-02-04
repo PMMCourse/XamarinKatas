@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinFormsKatas.Katas_Logic.Kata_LJ;
 using XamarinFormsKatas.Katas_UI.Kata_b;
 using XamarinFormsKatas.Katas_UI.Kata_c;
 
@@ -16,6 +17,7 @@ using XamarinFormsKatas.Katas_UI.Kata_j;
 using XamarinFormsKatas.Katas_UI.Kata_m;
 using XamarinFormsKatas.Katas_UI.Kata_r;
 using XamarinFormsKatas.Katas_UI.Kata_s;
+using XamarinFormsKatas.Katas_UI.Kata_t;
 using XamarinFormsKatas.Katas_UI.Kata_v;
 
 namespace XamarinFormsKatas.Katas.Kata1
@@ -66,6 +68,14 @@ namespace XamarinFormsKatas.Katas.Kata1
             ButR.Clicked += (sender, e) =>
             {
                 Navigation.PushAsync(new KataR());
+            };
+            ButT.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new KataT());
+            };
+            ButLJ.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Kata_LJ());
             };
         }
     }
