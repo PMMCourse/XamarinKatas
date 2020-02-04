@@ -4,9 +4,15 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_l.KataL">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <BoxView>
+                <BoxView.GestureRecognizer>
+                    <SwipeGestureRecognizer Direction="Left" Swiped="swiped_left"/>
+                    <SwipeGestureRecognizer Direction="Right" Swiped="swiped_right"/>
+                    <TapGestureRecognizer Tapped="tapPrincipal"/>
+                    <PinchGestureRecognizer PinchUpdated="pinchPrincipal"/>
+                </BoxView.GestureRecognizer>
+            </BoxView>
+            <Label x:Name="nameLabel" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

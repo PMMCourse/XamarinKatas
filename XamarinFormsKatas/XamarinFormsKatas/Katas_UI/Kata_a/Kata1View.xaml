@@ -2,4 +2,33 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinFormsKatas.Katas.Kata1.Kata1View">
+    <ScrollView>
+        <StackLayout>
+            <Button Text="Ejercicio 1" x:Name="button1"/>
+            <Button Text="Ejercicio 2" x:Name="button2"/>
+            <Button Text="Ejercicio 3" x:Name="button3"/>
+            <Button Text="Ejercicio 4" x:Name="button4"/>
+            <Button Text="Ejercicio 5" x:Name="button5"/>
+            <Button Text="Ejercicio 6" x:Name="button6"/>
+            <Button Text="Ejercicio 7" x:Name="button7"/>
+            <Button Text="Ejercicio 8" x:Name="button8"/>
+            <Button Text="Ejercicio 9" x:Name="button9"/>
+            <Button Text="Ejercicio 10" x:Name="button10"/>
+            <Button Text="Ejercicio 11" x:Name="button11"/>
+            <Button Text="Ejercicio 12" x:Name="button12"/>
+            <Button Text="Ejercicio 13" x:Name="button13"/>
+            <Button Text="Ejercicio 14" x:Name="button14"/>
+            <Button Text="Ejercicio 15" x:Name="button15"/>
+            <Button Text="Ejercicio 16" x:Name="button16"/>
+            <Button Text="Ejercicio 17" x:Name="button17"/>
+            <Button Text="Ejercicio 18" x:Name="button18"/>
+            <Button Text="Ejercicio 19" x:Name="button19"/>
+            <Button Text="Ejercicio 20" x:Name="button20"/>
+            <Button Text="Ejercicio 21" x:Name="button21"/>
+            <Button Text="Ejercicio 22" x:Name="button22"/>
+            <Button Text="Ejercicio 23" x:Name="button23"/>
+            <Button Text="Ejercicio 24" x:Name="button24"/>
+            <Button Text="Ejercicio 25" x:Name="button25"/>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

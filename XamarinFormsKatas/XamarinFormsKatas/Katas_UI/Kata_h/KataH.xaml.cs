@@ -15,6 +15,14 @@ namespace XamarinFormsKatas.Katas_UI.Kata_h
 		public KataH ()
 		{
 			InitializeComponent ();
+	
+		}
+
+		private void AnimarRotacion(object sender, EventArgs e)
+		{
+			buttonRotation.TranslateTo(0, -10, 10);
+			buttonRotation.RotateTo(10, 100);
+			buttonRotation.TranslateTo(0, 0, 10);
 		}
 	}
 }
