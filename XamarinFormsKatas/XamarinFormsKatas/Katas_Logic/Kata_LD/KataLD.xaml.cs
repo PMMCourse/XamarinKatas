@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinFormsKatas.Katas_Logic.Kata_LD.ViewModel;
 
 namespace XamarinFormsKatas.Katas_Logic.Kata_LD
 {
@@ -15,6 +16,7 @@ namespace XamarinFormsKatas.Katas_Logic.Kata_LD
 		public KataLD ()
 		{
 			InitializeComponent ();
-		}
+            BindingContext = new MainViewModel();
+        }
 	}
 }

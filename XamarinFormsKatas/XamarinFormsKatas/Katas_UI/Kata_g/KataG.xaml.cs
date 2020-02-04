@@ -16,5 +16,10 @@ namespace XamarinFormsKatas.Katas_UI.Kata_g
 		{
 			InitializeComponent ();
 		}
-	}
+        private async void animacion(object sender, EventArgs e)
+        {
+            await botonAnimate.RotateTo(360, 200);
+            botonAnimate.Rotation = 0;
+        }
+    }
 }

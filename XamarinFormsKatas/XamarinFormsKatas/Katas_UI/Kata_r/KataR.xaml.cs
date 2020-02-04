@@ -15,6 +15,7 @@ namespace XamarinFormsKatas.Katas_UI.Kata_r
 		public KataR ()
 		{
 			InitializeComponent ();
+            BindingContext = new MainViewModel();
 		}
 	}
 }

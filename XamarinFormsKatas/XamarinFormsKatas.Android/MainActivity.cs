@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Android.Content;
 
 namespace XamarinFormsKatas.Droid
 {
@@ -21,5 +22,12 @@ namespace XamarinFormsKatas.Droid
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
         }
+        /*public override void onBackPressed()
+        {
+            AlertDialog.Builder mensaje = new AlertDialog.Builder(this);
+            mensaje.SetTitle("¿Desea Salir de la Aplicacion?");
+            mensaje.SetCancelable(false);
+            mensaje.Show();
+        }  */
     }
 }

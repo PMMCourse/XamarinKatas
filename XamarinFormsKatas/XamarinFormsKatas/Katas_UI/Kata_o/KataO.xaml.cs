@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
+using Xamarin.Forms.PlatformConfiguration;
 using Xamarin.Forms.Xaml;
 
 namespace XamarinFormsKatas.Katas_UI.Kata_o
@@ -15,6 +16,8 @@ namespace XamarinFormsKatas.Katas_UI.Kata_o
 		public KataO ()
 		{
 			InitializeComponent ();
+            
 		}
-	}
+
+    }
 }

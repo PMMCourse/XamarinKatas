@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Akavache;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +12,7 @@ namespace XamarinFormsKatas
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()
@@ -21,7 +22,7 @@ namespace XamarinFormsKatas
 
         protected override void OnSleep()
         {
-            // Handle when your app sleeps
+            BlobCache.Shutdown().Wait();
         }
 
         protected override void OnResume()

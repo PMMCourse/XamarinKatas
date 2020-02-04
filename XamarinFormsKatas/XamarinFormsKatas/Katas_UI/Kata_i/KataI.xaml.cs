@@ -16,5 +16,10 @@ namespace XamarinFormsKatas.Katas_UI.Kata_i
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void textToPlaceHolder(object sender, EventArgs e)
+        {
+            texto2.Placeholder = texto1.Text;
+        }
+    }
 }

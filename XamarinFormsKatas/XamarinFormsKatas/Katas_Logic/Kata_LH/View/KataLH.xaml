@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinFormsKatas.Katas_Logic.Kata_LH.KataLH">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <StackLayout Orientation="Horizontal">
+                <Entry WidthRequest="300" x:Name="entryControl"/>
+                <Switch x:Name="switchEntry" IsToggled="{Binding EntrySwitch}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label WidthRequest="300" Text="Label" x:Name="labelControl"/>
+                <Switch x:Name="switchLabel" IsToggled="{Binding LabelSwitch}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Button WidthRequest="300" x:Name="buttonControl"/>
+                <Switch x:Name="switchButton" IsToggled="{Binding ButtonSwitch}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <ActivityIndicator IsVisible="True" IsEnabled="True" IsRunning="True" x:Name="activityControl"/>
+                <Switch x:Name="switchActivity" IsToggled="{Binding ActivitySwitch}"/>
+            </StackLayout>
+            <Button VerticalOptions="Center" HorizontalOptions="Center" Text="Enviar" WidthRequest="200" Command="{Binding NavigationCommandButton}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

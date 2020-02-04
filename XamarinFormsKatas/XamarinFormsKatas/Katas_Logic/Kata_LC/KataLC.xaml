@@ -4,9 +4,7 @@
              x:Class="XamarinFormsKatas.Katas_Logic.Kata_LC.KataLC">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Message Alert" Command="{Binding PerformMessage}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -2,4 +2,37 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinFormsKatas.Katas.Kata1.Kata1View">
+    <ScrollView>
+        <StackLayout>
+            <Button Text="EJER B" x:Name="buttonB"></Button>
+            <Button Text="EJER C" x:Name="buttonC"></Button>
+            <Button Text="EJER D" x:Name="buttonD"></Button>
+            <Button Text="EJER E" x:Name="buttonE"></Button>
+            <Button Text="EJER F" x:Name="buttonF"></Button>
+            <Button Text="EJER G" x:Name="buttonG"></Button>
+            <Button Text="EJER H" x:Name="buttonH"></Button>
+            <Button Text="EJER I" x:Name="buttonI"></Button>
+            <Button Text="EJER J" x:Name="buttonJ"></Button>
+            <Button Text="EJER K" x:Name="buttonK"></Button>
+            <Button Text="EJER L" x:Name="buttonL"></Button>
+            <Button Text="EJER M" x:Name="buttonM"></Button>
+            <Button Text="EJER N" x:Name="buttonN"></Button>
+            <Button Text="EJER O" x:Name="buttonO"></Button>
+            <Button Text="EJER P" x:Name="buttonP"></Button>
+            <Button Text="EJER Q" x:Name="buttonQ"></Button>
+            <Button Text="EJER R" x:Name="buttonR"></Button>
+            <Button Text="EJER S" x:Name="buttonS"></Button>
+            <Button Text="EJER T" x:Name="buttonT"></Button>
+            <Button Text="EJER U" x:Name="buttonU"></Button>
+            <Button Text="EJER V" x:Name="buttonV"></Button>
+            <Button Text="EJER W" x:Name="buttonW"></Button>
+            <Button Text="EJER X" x:Name="buttonX"></Button>
+            <Button Text="EJER Y" x:Name="buttonY"></Button>
+            <Button Text="EJER Z" x:Name="buttonZ"></Button>
+            <Button Text="EJER LB" x:Name="buttonLB"></Button>
+            <Button Text="EJER LC" x:Name="buttonLC"></Button>
+            <Button Text="EJER LF" x:Name="buttonLF"></Button>
+            <Button Text="EJER LH" x:Name="buttonLH"></Button>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

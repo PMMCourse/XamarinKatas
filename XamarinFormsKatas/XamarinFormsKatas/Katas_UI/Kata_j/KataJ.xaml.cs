@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
+using XamarinFormsKatas.Katas_UI.Kata_j.Controls;
 using Xamarin.Forms.Xaml;
 
 namespace XamarinFormsKatas.Katas_UI.Kata_j
@@ -15,6 +16,11 @@ namespace XamarinFormsKatas.Katas_UI.Kata_j
 		public KataJ ()
 		{
 			InitializeComponent ();
+            BindingContext = new MainViewModel();
 		}
+        private void loginPerform(object sender, EventArgs e) {
+            string usuario = usuarioEntry.Text;
+            string contraseña = contraseñaEntry.Text;
+        }
 	}
 }

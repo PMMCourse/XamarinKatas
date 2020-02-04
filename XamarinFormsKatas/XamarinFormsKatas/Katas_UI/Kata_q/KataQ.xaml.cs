@@ -15,6 +15,8 @@ namespace XamarinFormsKatas.Katas_UI.Kata_q
 		public KataQ ()
 		{
 			InitializeComponent ();
-		}
-	}
+            //SE ELIMINA EL BORDE PERO TIENE QUE CLICKAR PORQUE SINO NO SE VE EL ENTRY AL
+            // NO TENER BORDE
+        }
+    }
 }
