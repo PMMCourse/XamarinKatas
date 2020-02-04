@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinFormsKatas.Katas_UI.Kata_r.ViewModel;
 using XamarinFormsKatas.ViewModel;
 
 namespace XamarinFormsKatas.Katas_UI.Kata_r
@@ -18,7 +19,8 @@ namespace XamarinFormsKatas.Katas_UI.Kata_r
         public KataR ()
 		{
 			InitializeComponent ();
-		}
+            BindingContext = new MainViewModel();
+        }
         
         
 	}

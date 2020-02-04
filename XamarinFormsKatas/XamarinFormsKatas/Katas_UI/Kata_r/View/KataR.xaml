@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinFormsKatas.Katas_UI.Kata_r"
+             x:Class="XamarinFormsKatas.Katas_UI.Kata_r.KataR">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <DataTemplate x:Key="ClienteTemplate">
+                <ViewCell>
+                    <StackLayout>
+                        <Label Text="{Binding Nom}"/>
+                        <Label Text="{Binding Dni}"/>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+
+            <DataTemplate x:Key="ProveedorTemplate">
+                <ViewCell>
+                    <StackLayout>
+                        <Label Text="{Binding Nom}"/>
+                        <Label Text="{Binding ProductName}"/>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+            <local:DataTemplateSelectorPersona x:Key="SelectorPersona"
+                                                ClienteTemplate="{StaticResource ClienteTemplate}"
+                                                ProveedorTemplate="{StaticResource ProveedorTemplate}"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ListView ItemTemplate="{StaticResource SelectorPersona}" 
+                  ItemsSource="{Binding Items}"/>
+    </ContentPage.Content>
+</ContentPage>
