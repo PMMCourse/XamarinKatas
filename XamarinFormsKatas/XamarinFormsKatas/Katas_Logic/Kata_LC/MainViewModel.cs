@@ -7,7 +7,7 @@ using XamarinFormsKatas.Katas_Logic.Kata_LA;
 
 namespace XamarinFormsKatas.Katas_Logic.Kata_LC
 {
-    public class MainViewModel:baseViewModel
+    public class MainViewModel:BaseViewModel
     {
         private Command _CommandButton;
         public ICommand commandButton => _CommandButton;

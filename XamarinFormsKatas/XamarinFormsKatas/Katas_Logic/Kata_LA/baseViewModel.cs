@@ -5,7 +5,7 @@ using Xamarin.Forms;
 
 namespace XamarinFormsKatas.Katas_Logic.Kata_LA
 {
-    public class baseViewModel:BindableObject
+    public class BaseViewModel:BindableObject
     {
         private string _name;
         public string name
