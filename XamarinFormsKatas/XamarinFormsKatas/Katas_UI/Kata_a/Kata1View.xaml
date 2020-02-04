@@ -2,4 +2,43 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinFormsKatas.Katas.Kata1.Kata1View">
+
+    <ScrollView>
+
+        <StackLayout>
+            <Label HorizontalOptions="CenterAndExpand" FontSize="26" Text="UI"></Label>
+            <Button x:Name="btn1" Text="Boton redondo"/>
+            <Button x:Name="btn2" Text="Master Detail Page"/>
+            <Button x:Name="btn3" Text="Listas"/>
+            <Button x:Name="btn4" Text="Boton rotatorio"/>
+            <Button x:Name="btn5" Text="Boton animado"/>
+            <Button x:Name="btn6" Text="PlaceHolder"/>
+            <Button x:Name="btn7" Text="Custom Renderer Entry"/>
+            <Button x:Name="btn8" Text="Pull and refresh"/>
+            <Button x:Name="btn9" Text="Gesture Recognizer"/>
+            <Button x:Name="btn10" Text="añadir al pulsar"/>
+            <Button x:Name="btn11" Text="Tabbed Page"/>
+            <Button x:Name="btn12" Text="Cuadro al pulsar atras"/>
+            <Button x:Name="btn13" Text="Activity Indicator"/>
+            <Button x:Name="btn14" Text="Entry sin borde"/>
+            <Button x:Name="btn15" Text="Lista Cli y Pro"/>
+            <Button x:Name="btn16" Text="Cuadros de colores"/>
+            <Button x:Name="btn17" Text="Grid deportista"/>
+            <Button x:Name="btn18" Text="Maps"/>
+            <Button x:Name="btn19" Text="Horizontal Scroll"/>
+            <Button x:Name="btn20" Text="Switch"/>
+            <Button x:Name="btn21" Text="Picker"/>
+            <Button x:Name="btn22" Text="labels salto de linea"/>
+            <Button x:Name="btn23" Text="labels en columnas"/>
+            <Label FontSize="26" HorizontalOptions="CenterAndExpand" Text="LOGIC"></Label>
+            <Button x:Name="btn24" Text="Llamada Json HTTP"/>
+            <Button x:Name="btn25" Text="Boton command"/>
+            <Button x:Name="btn26" Text="Navigation command"/>
+            <Button x:Name="btn27" Text="entrys color"/>
+            <Button x:Name="btn28" Text="Deportista Linq MVVM"/>
+            <Button x:Name="btn29" Text="Maps MVVM"/>
+            <Button x:Name="btn30" Text="Llamada"/>
+        </StackLayout>
+
+    </ScrollView>
 </ContentPage>

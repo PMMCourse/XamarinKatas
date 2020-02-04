@@ -15,6 +15,13 @@ namespace XamarinFormsKatas.Katas_UI.Kata_g
 		public KataG ()
 		{
 			InitializeComponent ();
+
+            Btnrotate.Clicked += async (sender, e) =>
+            {
+                await Btnrotate.RotateTo(360, 2000);
+                Btnrotate.Rotation = 0;
+            };
 		}
-	}
+
+    }
 }

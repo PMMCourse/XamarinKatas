@@ -15,6 +15,10 @@ namespace XamarinFormsKatas.Katas_UI.Kata_w
 		public KataW ()
 		{
 			InitializeComponent ();
-		}
+            BtnNavegacion.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new ShowPage(switchEntry, switchLabel, switchButton, switchAi));
+            };
+        }
 	}
 }

@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
+using Xamarin.Forms.Maps;
 using Xamarin.Forms.Xaml;
 
 namespace XamarinFormsKatas.Katas_Logic.Kata_LG
@@ -15,6 +16,7 @@ namespace XamarinFormsKatas.Katas_Logic.Kata_LG
 		public KataLG ()
 		{
 			InitializeComponent ();
-		}
+            BindingContext = new MainViewModel();
+        }
 	}
 }

@@ -15,6 +15,22 @@ namespace XamarinFormsKatas.Katas_UI.Kata_j
 		public KataJ ()
 		{
 			InitializeComponent ();
-		}
+            bool deleted = false;
+            btnLogin.Clicked += (sender, e) =>
+            {
+                if ((Entry2.Text == null || Entry2.Text == "") && deleted == false)
+                {
+                    Entry entry = new RoundedEntry();
+                    sl.Children.Remove(Entry2);
+                    sl.Children.Add(entry);
+                    deleted = true;
+                    var label = new Label()
+                    {
+                        Text = "ERROR"
+                    };
+                    sl.Children.Add(label);
+                }
+            };
+        }
 	}
 }

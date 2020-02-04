@@ -4,9 +4,15 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_k.KataK">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <ListView x:Name ="ListaRefresh"   
+                 IsPullToRefreshEnabled = "true">
+                <ListView.Header>
+                    <StackLayout Orientation="Horizontal">
+                        <Entry x:Name="EntryRefresh" WidthRequest="200"></Entry>
+                        <Button x:Name="BtnRefresh" Text="Añadir"/>
+                    </StackLayout>
+                </ListView.Header>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

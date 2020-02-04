@@ -15,6 +15,21 @@ namespace XamarinFormsKatas.Katas_UI.Kata_p
 		public KataP ()
 		{
 			InitializeComponent ();
+            BtnActivity.Clicked += async (sender, e) =>
+            {               
+                ActivityIndicator activityIndicator = new ActivityIndicator();
+                Sl.Children.Add(activityIndicator);
+                activityIndicator.IsRunning = true;
+                Sl.IsEnabled = false;
+                await WaitAndExecute(5000, () => activityIndicator.IsRunning = false);
+                Sl.IsEnabled = true;
+            };
+
 		}
-	}
+        private async Task WaitAndExecute(int milisec, Action actionToExecute)
+        {
+            await Task.Delay(milisec);
+            actionToExecute();
+        }
+    }
 }

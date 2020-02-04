@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
+using Xamarin.Forms.PlatformConfiguration;
 using Xamarin.Forms.Xaml;
 
 namespace XamarinFormsKatas.Katas_Logic.Kata_LE
@@ -15,6 +16,8 @@ namespace XamarinFormsKatas.Katas_Logic.Kata_LE
 		public KataLE ()
 		{
 			InitializeComponent ();
-		}
+
+            BindingContext = new MainViewModel();
+        }
 	}
 }

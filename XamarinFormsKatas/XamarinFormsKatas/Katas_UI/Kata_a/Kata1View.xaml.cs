@@ -15,6 +15,131 @@ namespace XamarinFormsKatas.Katas.Kata1
 		public Kata1View ()
 		{
 			InitializeComponent ();
-		}
-	}
+            Binding();
+        }
+        void Binding()
+        {
+            btn1.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_UI.Kata_b.KataB());
+            };
+            btn2.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_UI.Kata_c.MasterDetailPage1());
+            };
+            btn3.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_UI.Kata_d.KataD());
+            };
+            btn4.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_UI.Kata_g.KataG());
+            };
+            btn5.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_UI.Kata_h.KataH());
+            };
+            btn6.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_UI.Kata_i.KataI());
+            };
+            btn7.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_UI.Kata_j.KataJ());
+            };
+            btn8.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_UI.Kata_k.KataK());
+            };
+            btn9.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_UI.Kata_l.KataL());
+            };
+            btn10.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_UI.Kata_m.KataM());
+            };
+            btn11.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_UI.Kata_n.TabbedPage1());
+            };
+            btn12.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_UI.Kata_o.KataO());
+            };
+            btn13.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_UI.Kata_p.KataP());
+            };
+            btn14.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_UI.Kata_q.KataQ());
+            };
+            btn15.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_UI.Kata_r.KataR());
+            };
+            btn16.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_UI.Kata_s.KataS());
+            };
+            btn17.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_UI.Kata_t.KataT());
+            };
+            btn18.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_UI.Kata_u.KataU());
+            };
+            btn19.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_UI.Kata_v.KataV());
+            };
+            btn20.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_UI.Kata_w.KataW());
+            };
+            btn21.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_UI.Kata_x.KataX());
+            };
+            btn22.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_UI.Kata_y.KataY());
+            };
+            btn23.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_UI.Kata_z.KataZ());
+            };
+            btn24.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_Logic.Kata_LB.KataLB());
+            };
+            btn25.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_Logic.Kata_LC.KataLC());
+            };
+            btn26.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_Logic.Kata_LD.KataLD());
+            };
+            btn27.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_Logic.Kata_LE.KataLE());
+            };
+            btn28.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_Logic.Kata_LF.KataLF());
+            };
+            btn29.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_Logic.Kata_LG.KataLG());
+            };
+            btn30.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Katas_Logic.Kata_LI.Kata_LI());
+            };
+
+        }
+    }
 }
