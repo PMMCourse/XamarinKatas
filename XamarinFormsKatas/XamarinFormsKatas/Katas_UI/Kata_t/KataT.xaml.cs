@@ -12,9 +12,14 @@ namespace XamarinFormsKatas.Katas_UI.Kata_t
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class KataT : ContentPage
 	{
+        Deportista paco = new Deportista(10,"paco",21,"Futbol");
 		public KataT ()
 		{
 			InitializeComponent ();
+            puntuacionLabel.Text = paco.puntuacion.ToString();
+            nombreLabel.Text = paco.nombre;
+            edadLabel.Text = paco.edad.ToString();
+            deporteLabel.Text = paco.deporte;
 		}
 	}
 }
