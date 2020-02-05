@@ -9,9 +9,12 @@
                     <DataTemplate x:Name="listaClientesProv">
                         <StackLayout>
                             <Label Text="Lista de clientes y proveedores"/>
-                            <Label Text="{Binding nombre}"
-                            <Label Text="{Binding dni}";
-                            <Label Text="{Binding producto}";                           
+                            <Label Text="{Binding nombre}" VerticalOptions="CenterAndExpand" 
+                                HorizontalOptions="CenterAndExpand"/>
+                            <Label Text="{Binding dni}" VerticalOptions="CenterAndExpand" 
+                                HorizontalOptions="CenterAndExpand"/>
+                            <Label Text="{Binding producto}" VerticalOptions="CenterAndExpand" 
+                                HorizontalOptions="CenterAndExpand"/>
                         </StackLayout>
                     </DataTemplate>
                 </ListView.ItemTemplate>
