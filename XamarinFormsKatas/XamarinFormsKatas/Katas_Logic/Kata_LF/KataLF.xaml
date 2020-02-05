@@ -3,10 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinFormsKatas.Katas_Logic.Kata_LF.KataLF">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid x:Name="Control">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label Text="{Binding Text.puntos}" Grid.Column="0"/>
+            <Label Text="{Binding Text.nombre}" Grid.Column="1"/>
+            <Label Text="{Binding Text.edad}" Grid.Column="2"/>
+            <Label Text="{Binding Text.deporte}" Grid.Column="3"/>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
