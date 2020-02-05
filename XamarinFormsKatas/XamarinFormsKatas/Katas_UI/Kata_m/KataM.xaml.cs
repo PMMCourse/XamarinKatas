@@ -17,7 +17,7 @@ namespace XamarinFormsKatas.Katas_UI.Kata_m
 			InitializeComponent ();
 		}
 
-		public void CrearLabel(object sender, EventArgs e)
+		public void CreateLabel(object sender, EventArgs e)
 		{
 			Label nuevoLabel = new Label();
 			Contenedor.Children.Add(nuevoLabel);
