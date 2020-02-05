@@ -4,9 +4,8 @@
              x:Class="XamarinFormsKatas.Katas_Logic.Kata_LA.KataLA">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="{Binding LabelText, Mode=TwoWay}" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            <Entry Text="{Binding LabelText, Mode=TwoWay}" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -12,9 +12,11 @@ namespace XamarinFormsKatas.Katas_Logic.Kata_LA
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class KataLA : ContentPage
 	{
-		public KataLA ()
+		public KataLA()
 		{
-			InitializeComponent ();
+			InitializeComponent();
+
+			BindingContext = new ViewModel();
 		}
 	}
 }

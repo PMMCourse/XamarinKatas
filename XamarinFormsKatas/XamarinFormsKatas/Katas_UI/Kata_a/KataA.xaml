@@ -35,7 +35,7 @@
                 <Button Text="Kata_Y" BackgroundColor="Orange" Clicked="BotonKata_y"></Button>
                 <Button Text="Kata_z" BackgroundColor="Orange" Clicked="BotonKata_z"></Button>
                 <Label Text="KATA_LOGIC" HorizontalOptions="Center" VerticalOptions="Center"  HorizontalTextAlignment="Center" FontSize="Title"></Label>
-                <Button Text="Kata_LA" Clicked="BotonKata_la"></Button>
+                <Button Text="Kata_LA" BackgroundColor="Green" Clicked="BotonKata_la"></Button>
                 <Button Text="Kata_LB" Clicked="BotonKata_lb"></Button>
                 <Button Text="Kata_LC" Clicked="BotonKata_lc"></Button>
                 <Button Text="Kata_LD" Clicked="BotonKata_ld"></Button>
