@@ -16,5 +16,18 @@ namespace XamarinFormsKatas.Katas_UI.Kata_p
 		{
 			InitializeComponent ();
 		}
+		private async void pulseAndActivate(object sender, EventArgs e)
+		{
+			buttonActivate.IsEnabled = false;
+			activity1.IsEnabled = true;
+			activity1.IsRunning = true;
+			activity1.IsVisible = true;
+			await Task.Delay(5000);
+			activity1.IsEnabled = false;
+			activity1.IsEnabled = false;
+			activity1.IsEnabled = false;
+			buttonActivate.IsEnabled = true;
+
+		}
 	}
 }

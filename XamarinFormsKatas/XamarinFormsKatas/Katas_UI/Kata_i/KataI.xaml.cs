@@ -14,7 +14,11 @@ namespace XamarinFormsKatas.Katas_UI.Kata_i
 	{
 		public KataI ()
 		{
-			InitializeComponent ();
+			InitializeComponent();
+		}
+		private void cambiarTexto (object sender, EventArgs e)
+		{
+			introduceText.Placeholder = textBinding.Text;
 		}
 	}
 }

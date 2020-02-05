@@ -1,0 +1,14 @@
+﻿ ?xml version="1.0" encoding="utf-8" ?><ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinFormsKatas.Katas_UI.Kata_c.MasterDetailPageMaster"
+             Title="Master">
+    <StackLayout>
+        <Button x:Name="button1" Clicked="buttonView1">
+        <Button x:Name="button2" Clicked="buttonView2">
+        <Button x:Name="button3" Clicked="buttonView3">
+       <StackLayout HorizontalOptions="FillAndExpand">
+           <Label VerticalTextAlignment="Center" 
+                Text="BOTONES VISTAS"/>
+       </StackLayout>
+    </StackLayout>
+</ContentPage> 

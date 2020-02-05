@@ -16,5 +16,10 @@ namespace XamarinFormsKatas.Katas_UI.Kata_m
 		{
 			InitializeComponent ();
 		}
+		private void forLabel(object sender, EventArgs e)
+		{
+			Label newLabel = new Label();
+			stackForLabel.Children.Add(newLabel);
+		}
 	}
 }

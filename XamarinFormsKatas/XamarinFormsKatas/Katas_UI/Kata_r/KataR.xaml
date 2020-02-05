@@ -4,9 +4,21 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_r.KataR">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <ListView>
+                <ListView.ItemTemplate>
+                    <DataTemplate x:Name="listaClientesProv">
+                        <StackLayout>
+                            <Label Text="Lista de clientes y proveedores"/>
+                            <Label Text="{Binding nombre}" VerticalOptions="CenterAndExpand" 
+                                HorizontalOptions="CenterAndExpand"/>
+                            <Label Text="{Binding dni}" VerticalOptions="CenterAndExpand" 
+                                HorizontalOptions="CenterAndExpand"/>
+                            <Label Text="{Binding producto}" VerticalOptions="CenterAndExpand" 
+                                HorizontalOptions="CenterAndExpand"/>
+                        </StackLayout>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
