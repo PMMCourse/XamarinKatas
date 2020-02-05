@@ -6,8 +6,8 @@
         <StackLayout>
             <Button x:Name="btRotatorio"
                     Text="Pulsar"
-                    VerticalOptions="Center"
-                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="CenterAndExpand"
                     Clicked="btRotatorio_Clicked"
                     BackgroundColor="Red"/>
         </StackLayout>

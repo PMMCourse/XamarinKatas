@@ -16,5 +16,12 @@ namespace XamarinFormsKatas.Katas_UI.Kata_m
 		{
 			InitializeComponent ();
 		}
+
+		private void btPulsar_Clicked(object sender, EventArgs e)
+		{
+			Label lb = new Label();
+			lb.Text = "Nuevo label";
+			Stack1.Children.Add(lb);
+		}
 	}
 }

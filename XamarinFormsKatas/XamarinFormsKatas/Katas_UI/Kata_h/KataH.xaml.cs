@@ -19,7 +19,7 @@ namespace XamarinFormsKatas.Katas_UI.Kata_h
 
 		private void btAnimado_Clicked(object sender, EventArgs e)
 		{
-			btAnimado.TranslateTo(0, 200, 250, Easing.CubicInOut);
+			btAnimado.TranslateTo(0, -200, 250, Easing.CubicInOut);
 			btAnimado.RotateTo(360, 900, Easing.CubicInOut);
 		}
 	}

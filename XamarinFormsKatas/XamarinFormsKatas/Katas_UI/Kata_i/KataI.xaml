@@ -5,10 +5,11 @@
     <ContentPage.Content>
         <StackLayout>
             <Entry x:Name="entryTeclado"
+                   Placeholder="Escribe algo"
                    Keyboard="Default"/>
             <Entry x:Name="entryCopia"
                    Keyboard="entryTeclado"
-                   Placeholder=""/>
+                   />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

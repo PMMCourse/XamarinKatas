@@ -4,7 +4,7 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_o.KataO">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="Pulsa botón atras"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>

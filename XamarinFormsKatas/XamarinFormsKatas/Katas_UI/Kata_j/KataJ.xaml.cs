@@ -16,5 +16,29 @@ namespace XamarinFormsKatas.Katas_UI.Kata_j
 		{
 			InitializeComponent ();
 		}
+
+		private void btLogin_Clicked(object sender, EventArgs e)
+		{
+			var usuario = boxUser.Text;
+			var contra = boxPass.Text;
+
+			if (string.IsNullOrEmpty(usuario))
+			{
+				this.boxUser.BackgroundColor = Color.Red;
+				this.texto.Text = "Rellene todos los campos";
+
+			}
+			if (string.IsNullOrEmpty(contra))
+			{
+				this.boxPass.BackgroundColor = Color.Red;
+				this.texto.Text = "Rellene todos los campos";
+			}
+			else
+			{
+				this.boxUser.BackgroundColor = Color.Green;
+				this.boxPass.BackgroundColor = Color.Green;
+
+			}
+		}
 	}
 }
