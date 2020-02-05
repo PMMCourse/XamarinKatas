@@ -23,7 +23,7 @@ namespace XamarinFormsKatas.Katas_UI.Kata_t
 			deporList.Add(d1);
 			deporList.Add(d2);
 
-			deporList.ItemsSource = deporList.Where(x => x.Edad > 23 && x.Deporte.Contains("T") && x.Puntuacion == 30);
+			listview.ItemsSource = deporList.Where(x => x.Edad > 23 && x.Deporte.Contains("T") && x.Puntuacion == 30);
 		}
 	}
 }
