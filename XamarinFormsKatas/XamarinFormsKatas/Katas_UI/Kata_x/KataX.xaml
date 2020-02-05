@@ -4,9 +4,17 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_x.KataX">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label x:Name="labelID" Focused="Label_Focused" Text="Pulsa sobre mi"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Picker SelectedIndexChanged="pickerID_SelectedIndexChanged" x:Name="pickerID" IsVisible="False" >
+                <Picker.Items>
+                    <x:String>"Fruta"</x:String>
+                    <x:String>"Verdura"</x:String>
+                    <x:String>"MVVM"</x:String>
+                    <x:String>"Xamarin"</x:String>
+                </Picker.Items>
+            </Picker>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

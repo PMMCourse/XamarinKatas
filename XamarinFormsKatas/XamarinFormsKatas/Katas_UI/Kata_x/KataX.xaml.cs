@@ -12,9 +12,19 @@ namespace XamarinFormsKatas.Katas_UI.Kata_x
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class KataX : ContentPage
 	{
-		public KataX ()
+		public KataX()
 		{
-			InitializeComponent ();
+			InitializeComponent();
+		}
+
+		private void Label_Focused(object sender, FocusEventArgs e)
+		{
+			pickerID.IsVisible = true;
+		}
+
+		private void pickerID_SelectedIndexChanged(object sender, EventArgs e)
+		{
+			labelID.Text = $"Item seleccionado: {pickerID.SelectedItem.ToString()}";
 		}
 	}
 }

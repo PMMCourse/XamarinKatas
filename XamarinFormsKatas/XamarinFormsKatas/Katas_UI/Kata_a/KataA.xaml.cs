@@ -107,6 +107,10 @@ namespace XamarinFormsKatas.Katas_UI.Kata_a
         {
             Navigation.PushAsync(new Katas_UI.Kata_w.KataW());
         }
+        public void BotonKata_x(object sender, EventArgs args)
+        {
+            Navigation.PushAsync(new Katas_UI.Kata_x.KataX());
+        }
         public void BotonKata_y(object sender, EventArgs args)
         {
             Navigation.PushAsync(new Katas_UI.Kata_y.KataY());
@@ -162,5 +166,9 @@ namespace XamarinFormsKatas.Katas_UI.Kata_a
             Navigation.PushAsync(new Katas_Logic.Kata_LK.KataLK());
         }
 
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
