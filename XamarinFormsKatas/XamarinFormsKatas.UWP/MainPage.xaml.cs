@@ -11,7 +11,9 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using XamarinFormsKatas.Katas_UI.Kata_a;
 using Windows.UI.Xaml.Navigation;
+using Xamarin.Forms;
 
 namespace XamarinFormsKatas.UWP
 {
@@ -22,6 +24,7 @@ namespace XamarinFormsKatas.UWP
             this.InitializeComponent();
 
             LoadApplication(new XamarinFormsKatas.App());
+            
         }
     }
 }

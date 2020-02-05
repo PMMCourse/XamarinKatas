@@ -4,9 +4,8 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_i.KataI">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Entry x:Name="inputOrigen" TextChanged="inputOrigen_TextChanged" Placeholder="Introduzca aqui el texto a replicar" ></Entry>
+            <Entry x:Name="inputDestino" Placeholder="" ></Entry>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

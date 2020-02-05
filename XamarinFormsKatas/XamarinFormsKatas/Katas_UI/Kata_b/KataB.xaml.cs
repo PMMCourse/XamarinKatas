@@ -12,9 +12,16 @@ namespace XamarinFormsKatas.Katas_UI.Kata_b
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class KataB : ContentPage
 	{
-		public KataB ()
+		public KataB()
 		{
 			InitializeComponent ();
 		}
+		
+
+		public void botonB(object sender, EventArgs args)
+		{
+			 DisplayAlert("Respuesta", "Soy un boton redondo", "pues vale");
+		}
+
 	}
 }

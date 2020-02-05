@@ -12,9 +12,27 @@ namespace XamarinFormsKatas.Katas_UI.Kata_l
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class KataL : ContentPage
 	{
-		public KataL ()
+		public KataL()
 		{
-			InitializeComponent ();
+			InitializeComponent();
 		}
-	}
+        void accionRealizada(object sender, SwipedEventArgs e)
+        {
+            switch (e.Direction)//lo vi mejor que usar un if anidado
+            {
+                case SwipeDirection.Left:
+                    labelAdivino.Text = "Izquierda";
+                    break;//sorry :(
+                case SwipeDirection.Right:
+                    labelAdivino.Text = "Derecha";
+                    break;//sorry :(
+                case SwipeDirection.Up:
+                    labelAdivino.Text = "Arriba";
+                    break;//sorry :(
+                case SwipeDirection.Down:
+                    labelAdivino.Text = "Abajo";
+                    break;//sorry :(
+            }
+        }
+    }
 }

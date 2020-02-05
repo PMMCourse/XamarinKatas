@@ -4,9 +4,9 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_v.KataV">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <ScrollView VerticalOptions="CenterAndExpand" HorizontalOptions="Center" Orientation="Horizontal">
+                <Label FontSize="Title" x:Name="contenidoLabel"></Label>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

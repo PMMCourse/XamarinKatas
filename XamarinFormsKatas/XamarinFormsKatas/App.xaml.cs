@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinFormsKatas.Katas_UI.Kata_a;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace XamarinFormsKatas
@@ -10,8 +11,8 @@ namespace XamarinFormsKatas
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MainPage();
+            
+            MainPage = new NavigationPage(new KataA());
         }
 
         protected override void OnStart()

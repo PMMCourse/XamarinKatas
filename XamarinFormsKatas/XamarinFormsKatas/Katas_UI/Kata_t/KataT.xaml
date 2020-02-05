@@ -4,9 +4,18 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_t.KataT">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Grid ColumnSpacing="0" RowSpacing="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="4*" />
+                </Grid.ColumnDefinitions>
+                <Label x:Name="nom" MinimumWidthRequest="100" HorizontalOptions="CenterAndExpand" Text="Nombre" Grid.Row="0" Grid.Column="0" ></Label>
+                <Label x:Name="pun" MinimumWidthRequest="100" HorizontalOptions="CenterAndExpand" Text="Puntuacion" Grid.Row="0" Grid.Column="1" ></Label>
+                <Label x:Name="dep" MinimumWidthRequest="100" HorizontalOptions="CenterAndExpand" Text="Deporte" Grid.Row="0" Grid.Column="2" ></Label>
+                <Label x:Name="eda" MinimumWidthRequest="100" HorizontalOptions="CenterAndExpand" Text="Edad" Grid.Row="0" Grid.Column="3" ></Label>
+            </Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

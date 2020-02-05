@@ -4,9 +4,29 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_w.KataW">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Grid ColumnSpacing="0" RowSpacing="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <Grid.RowDefinitions>
+                <RowDefinition Height="5*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*" />
+                </Grid.ColumnDefinitions>
+                
+                    <Entry x:Name="entryVist1" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"  Grid.Row="0" Grid.Column="0"></Entry>
+                    <Switch x:Name="switchEntry" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Grid.Row="0" Grid.Column="1" IsToggled="false" />
+                
+                    <Label x:Name="labVist1" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="label" Grid.Row="1" Grid.Column="0"></Label>
+                    <Switch x:Name="switchLabel" HorizontalOptions="CenterAndExpand" Grid.Row="1" Grid.Column="1" IsToggled="false" />
+               
+                    <Button x:Name="buttVist1" Text="boton" Grid.Row="2" Grid.Column="0"></Button>
+                    <Switch x:Name="switchBoton" HorizontalOptions="CenterAndExpand" Grid.Row="2" Grid.Column="1" IsToggled="false" />
+                
+                    <ActivityIndicator x:Name="AIvist1" IsRunning="true" IsVisible="True" Grid.Row="3" Grid.Column="0"></ActivityIndicator>
+                    <Switch x:Name="switchAIndicator" HorizontalOptions="CenterAndExpand" Grid.Row="3" Grid.Column="1" IsToggled="false" />
+
+                <Button HorizontalOptions="FillAndExpand" Grid.RowSpan="2" x:Name="BotonNavegar"  Clicked="Button_Navegar" Text="Navegar Suiguiente ventana" Grid.Row="4" Grid.Column="4"></Button>
+            
+            </Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
