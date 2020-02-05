@@ -99,7 +99,7 @@ namespace XamarinFormsKatas.Katas_UI.Kata_a
             };
             btnU.Clicked += (sender, e) =>
             {
-                Navigation.PushAsync(new Katas_UI.Kata_u.KataU());
+                Navigation.PushAsync(new Katas_UI.Kata_t.KataT());
             };
             btnV.Clicked += (sender, e) =>
             {
