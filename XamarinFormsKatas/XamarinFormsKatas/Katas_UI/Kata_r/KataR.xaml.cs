@@ -25,6 +25,8 @@ namespace XamarinFormsKatas.Katas_UI.Kata_r
 			listClientesProov.Add(new Cliente() { nombre = "cristian", dni = "6568545Q" }.ToString());
 			listClientesProov.Add(new Cliente() { nombre = "miguel", dni = "9876543P" }.ToString());
 			listClientesProov.Add(new Cliente() { nombre = "joaquin", dni = "6473847D" }.ToString());
+
+			listaClientesProv.ItemsSource = listClientesProov;
 		}
 	}
 }

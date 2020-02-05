@@ -22,7 +22,6 @@ namespace XamarinFormsKatas.Katas_UI.Kata_t
 			_listaDeportes = new List<Deportista>();
 			introduceList();
 		}
-
 		private void introduceList()
 		{
 			_listaDeportes.Add(new Deportista { Deporte = "Tenis", Edad = 54, Puntuacion = 123, Sexo = "Hombre" });

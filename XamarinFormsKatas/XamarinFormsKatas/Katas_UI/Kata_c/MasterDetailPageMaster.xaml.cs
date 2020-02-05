@@ -15,39 +15,28 @@ namespace XamarinFormsKatas.Katas_UI.Kata_c
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MasterDetailPageMaster : ContentPage
     {
-        public ListView ListView;
         public MasterDetailPageMaster()
         {
             InitializeComponent();
-            BindingContext = new MasterDetailPage1MasterViewModel();
-            ListView = OptionsListView;
         }
 
-        class MasterDetailPage1MasterViewModel : INotifyPropertyChanged
+        //Esto lo he visto en un tutorial de un indio Chema no me agredas
+        private async void buttonView1(object sender, EventArgs e)
         {
-            public ObservableCollection<MasterDetailKataItem> Options { get; set; }
-
-            public MasterDetailPage1MasterViewModel()
-            {
-                Options = new ObservableCollection<MasterDetailKataItem>(new[]
-                {
-                    new MasterDetailKataItem { Id = 0, Title = "Vista 1", TargetType = typeof(View1)},
-                    new MasterDetailKataItem { Id = 1, Title = "Vista 2", TargetType = typeof(View2)},
-                    new MasterDetailKataItem { Id = 2, Title = "Vista 3", TargetType = typeof(View3)},
-                });
-            }
-
-            INotifyPropertyChanged Implementation;
-            public event PropertyChangedEventHandler PropertyChanged;
-            void OnPropertyChanged([CallerMemberName] string propertyName = "")
-            {
-                if (PropertyChanged == null)
-                    return;
-
-                PropertyChanged.Invoke(this, new PropertyChangedEventArgs(propertyName));
-            }
-
+            App.MasterDetail.IsPresented = false;
+            await App.MasterDetail.MasterDetailPageDetail.Navigation.PushAsync(new View1());
         }
+        private async void buttonView2()
+        {
+            App.MasterDetail.IsPresented = false;
+            await App.MasterDetail.MasterDetailPageDetail.Navigation.PushAsync(new View2());
+        }
+        private async void buttonView3()
+        {
+            App.MasterDetail.IsPresented = false;
+            await App.MasterDetail.MasterDetailPageDetail.Navigation.PushAsync(new View3());
+        }
+        
     }
 }
     

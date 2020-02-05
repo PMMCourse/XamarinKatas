@@ -7,7 +7,7 @@
             <ListView x:Name="listSports"
               <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Text="{Binding ReturnList}"></TextCell>
+                    <TextCell Text="{Binding introduceList}"></TextCell>
                 </DataTemplate>
                </ListView.ItemTemplate>
         </Grid>

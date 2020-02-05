@@ -6,9 +6,14 @@
         <StackLayout>
             <ListView>
                 <ListView.ItemTemplate>
-
-
-
+                    <DataTemplate x:Name="listaClientesProv">
+                        <StackLayout>
+                            <Label Text="Lista de clientes y proveedores"/>
+                            <Label Text="{Binding nombre}"
+                            <Label Text="{Binding dni}";
+                            <Label Text="{Binding producto}";                           
+                        </StackLayout>
+                    </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
         </StackLayout>

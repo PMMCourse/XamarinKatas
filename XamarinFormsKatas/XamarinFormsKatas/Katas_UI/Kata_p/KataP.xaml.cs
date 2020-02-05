@@ -22,7 +22,7 @@ namespace XamarinFormsKatas.Katas_UI.Kata_p
 			activity1.IsEnabled = true;
 			activity1.IsRunning = true;
 			activity1.IsVisible = true;
-			await Task.Delay(5);
+			await Task.Delay(5000);
 			activity1.IsEnabled = false;
 			activity1.IsEnabled = false;
 			activity1.IsEnabled = false;

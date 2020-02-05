@@ -3,40 +3,12 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_c.MasterDetailPageMaster"
              Title="Master">
     <StackLayout>
-        <ListView x:Name="MenuItemsListView"
-              SeparatorVisibility="None"
-              HasUnevenRows="true"
-              ItemsSource="{Binding Options}">
-            <ListView.Header>
-                <Grid BackgroundColor="#03A9F4">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="10"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="10"/>
-                    </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="30"/>
-                        <RowDefinition Height="80"/>
-                        <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="10"/>
-                    </Grid.RowDefinitions>
-                    <Label
-              Grid.Column="1"
-              Grid.Row="2"
-              Text="AppName"              
-                </Grid>
-            </ListView.Header>
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <StackLayout Padding="15,10" HorizontalOptions="FillAndExpand">
-                            <Label VerticalOptions="FillAndExpand" 
-                    VerticalTextAlignment="Center" 
-                    Text="{Binding Title}"/>
-                        </StackLayout>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+        <Button x:Name="button1" Clicked="buttonView1">
+        <Button x:Name="button2" Clicked="buttonView2">
+        <Button x:Name="button3" Clicked="buttonView3">
+       <StackLayout HorizontalOptions="FillAndExpand">
+           <Label VerticalTextAlignment="Center" 
+                Text="BOTONES VISTAS"/>
+       </StackLayout>
     </StackLayout>
 </ContentPage> 
