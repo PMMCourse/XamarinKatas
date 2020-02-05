@@ -16,5 +16,11 @@ namespace XamarinFormsKatas.Katas_UI.Kata_g
 		{
 			InitializeComponent ();
 		}
+
+		private void btRotatorio_Clicked(object sender, EventArgs e)
+		{
+			
+			btRotatorio.RotateTo(360, 900, Easing.CubicInOut);
+		}
 	}
 }

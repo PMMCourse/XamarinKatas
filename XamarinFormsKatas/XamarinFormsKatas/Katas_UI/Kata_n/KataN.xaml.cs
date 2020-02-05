@@ -10,11 +10,12 @@ using Xamarin.Forms.Xaml;
 namespace XamarinFormsKatas.Katas_UI.Kata_n
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class KataN : ContentPage
+	public partial class KataN : TabbedPage
 	{
 		public KataN ()
 		{
 			InitializeComponent ();
 		}
+
 	}
 }

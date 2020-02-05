@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XamarinFormsKatas.Katas_UI.Kata_a.KataA">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                
+                <Button Text="Kata B"
+                        x:Name="btKataB"
+                        Clicked="btKataB_Clicked" 
+                        HorizontalOptions="Center"/>
+
+                <Button Text="Kata C"
+                        x:Name="btKataC"
+                        Clicked="btKataC_Clicked" 
+                        HorizontalOptions="Center"/>
+
+                <Button Text="Kata D y E "
+                        x:Name="btKataDE"
+                        Clicked="btKataD_Clicked" 
+                        HorizontalOptions="Center"/>
+
+                <Button Text="Kata F "
+                        x:Name="btKataF"
+                        Clicked="btKataF_Clicked" 
+                        HorizontalOptions="Center"/>
+
+                <Button Text="Kata G"
+                        x:Name="btKataG"
+                        Clicked="btKataG_Clicked" 
+                        HorizontalOptions="Center"/>
+
+                <Button Text="Kata H"
+                        x:Name="btKataH"
+                        Clicked="btKataH_Clicked" 
+                        HorizontalOptions="Center"/>
+
+                <Button Text="Kata I"
+                        x:Name="btKataI"
+                        Clicked="btKataI_Clicked" 
+                        HorizontalOptions="Center"/>
+
+                <Button Text="Kata J"
+                        x:Name="btKataJ"
+                        Clicked="btKataJ_Clicked" 
+                        HorizontalOptions="Center"/>
+
+                <Button Text="Kata K"
+                        x:Name="btKataK"
+                        Clicked="btKataK_Clicked" 
+                        HorizontalOptions="Center"/>
+
+                <Button Text="Kata L"
+                        x:Name="btKataL"
+                        Clicked="btKataL_Clicked" 
+                        HorizontalOptions="Center"/>
+
+                <Button Text="Kata M"
+                        x:Name="btKataM"
+                        Clicked="btKataM_Clicked" 
+                        HorizontalOptions="Center"/>
+
+                <Button Text="Kata N"
+                        x:Name="btKataN"
+                        Clicked="btKataN_Clicked" 
+                        HorizontalOptions="Center"/>
+
+                <Button Text="Kata O"
+                        x:Name="btKataO"
+                        Clicked="btKataO_Clicked" 
+                        HorizontalOptions="Center"/>
+
+                <Button Text="Kata P"
+                        x:Name="btKataP"
+                        Clicked="btKataP_Clicked" 
+                        HorizontalOptions="Center"/>
+
+                <Button Text="Kata Q"
+                        x:Name="btKataQ"
+                        Clicked="btKataQ_Clicked" 
+                        HorizontalOptions="Center"/>
+
+                <Button Text="Kata R"
+                        x:Name="btKataR"
+                        Clicked="btKataR_Clicked" 
+                        HorizontalOptions="Center"/>
+
+                <Button Text="Kata S"
+                        x:Name="btKataS"
+                        Clicked="btKataS_Clicked" 
+                        HorizontalOptions="Center"/>
+
+                <Button Text="Kata T"
+                        x:Name="btKataT"
+                        Clicked="btKataT_Clicked" 
+                        HorizontalOptions="Center"/>
+
+                <Button Text="Kata U"
+                        x:Name="btKataU"
+                        Clicked="btKataU_Clicked" 
+                        HorizontalOptions="Center"/>
+
+                <Button Text="Kata V"
+                        x:Name="btKataV"
+                        Clicked="btKataV_Clicked" 
+                        HorizontalOptions="Center"/>
+
+                <Button Text="Kata W"
+                        x:Name="btKataW"
+                        Clicked="btKataW_Clicked" 
+                        HorizontalOptions="Center"/>
+
+                <Button Text="Kata X"
+                        x:Name="btKataX"
+                        Clicked="btKataX_Clicked" 
+                        HorizontalOptions="Center"/>
+
+                <Button Text="Kata Y"
+                        x:Name="btKataY"
+                        Clicked="btKataY_Clicked" 
+                        HorizontalOptions="Center"/>
+
+                <Button Text="Kata Z"
+                        x:Name="btKataZ"
+                        Clicked="btKataZ_Clicked" 
+                        HorizontalOptions="Center"/>
+            </StackLayout>
+            
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

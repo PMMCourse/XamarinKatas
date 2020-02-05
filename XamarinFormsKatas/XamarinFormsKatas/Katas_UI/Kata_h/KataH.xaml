@@ -4,9 +4,12 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_h.KataH">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="btAnimado"
+                    Text="Bailoteo"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="CenterAndExpand"
+                    BackgroundColor="Aqua"
+                    Clicked="btAnimado_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

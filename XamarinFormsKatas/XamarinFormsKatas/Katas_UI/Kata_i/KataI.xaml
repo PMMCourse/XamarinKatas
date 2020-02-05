@@ -4,9 +4,12 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_i.KataI">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Entry x:Name="entryTeclado"
+                   Placeholder="Escribe algo"
+                   Keyboard="Default"/>
+            <Entry x:Name="entryCopia"
+                   Keyboard="entryTeclado"
+                   />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
