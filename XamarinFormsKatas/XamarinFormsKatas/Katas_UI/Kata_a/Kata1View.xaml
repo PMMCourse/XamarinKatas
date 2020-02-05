@@ -32,7 +32,7 @@
                 <Button Text="Y" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
                 <Button Text="Z" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
                 <Label Text="Katas de Logica" HorizontalOptions="CenterAndExpand"></Label>
-                <Button Text="Z" x:Name="ButLJ" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
+                <Button Text="LJ" x:Name="ButLJ" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
