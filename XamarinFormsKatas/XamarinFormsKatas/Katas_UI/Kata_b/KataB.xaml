@@ -7,6 +7,11 @@
             <Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Button Text="CirculoRedondo"
+                    BorderColor="Blue"
+                    BorderRadius="55"
+                    BorderWidth="2"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

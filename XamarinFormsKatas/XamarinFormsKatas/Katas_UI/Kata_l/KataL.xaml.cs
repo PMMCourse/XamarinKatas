@@ -16,5 +16,21 @@ namespace XamarinFormsKatas.Katas_UI.Kata_l
 		{
 			InitializeComponent ();
 		}
-	}
+        private void swipeLeft(object sender,EventArgs e)
+        {
+            Evento.Text = "swipe a la izquierda";
+        }
+        private void SwipeRight(object sender, EventArgs e)
+        {
+            Evento.Text = "swipe a la derecha";
+        }
+        private void ControlTap(object sender, EventArgs e)
+        {
+            Evento.Text = "TAP";
+        }
+        private void ControlPinch(object sender, EventArgs e)
+        {
+            Evento.Text = "PINCH";
+        }
+    }
 }

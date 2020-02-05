@@ -4,9 +4,15 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_t.KataT">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Grid>
+                <ListView x:Name="listaDeportista">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell Text="{Binding ToString}"></TextCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

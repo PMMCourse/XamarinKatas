@@ -15,6 +15,7 @@ namespace XamarinFormsKatas.Katas_Logic.Kata_LE
 		public KataLE ()
 		{
 			InitializeComponent ();
+            BindingContext = new MainViewModel();
 		}
 	}
 }
