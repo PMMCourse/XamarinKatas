@@ -18,25 +18,22 @@ namespace XamarinFormsKatas.Katas_UI.Kata_c
         public MasterDetailPageMaster()
         {
             InitializeComponent();
-        }
-
-        //Esto lo he visto en un tutorial de un indio Chema no me agredas
-        private async void buttonView1(object sender, EventArgs e)
+        }        
+        private void buttonView1(object sender, EventArgs e)
         {
             App.MasterDetail.IsPresented = false;
             await App.MasterDetail.MasterDetailPageDetail.Navigation.PushAsync(new View1());
         }
-        private async void buttonView2()
+        private void buttonView2(object sender, EventArgs e)
         {
             App.MasterDetail.IsPresented = false;
             await App.MasterDetail.MasterDetailPageDetail.Navigation.PushAsync(new View2());
         }
-        private async void buttonView3()
+        private void buttonView3(object sender, EventArgs e)
         {
             App.MasterDetail.IsPresented = false;
             await App.MasterDetail.MasterDetailPageDetail.Navigation.PushAsync(new View3());
-        }
-        
+        }        
     }
 }
     
