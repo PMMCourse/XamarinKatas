@@ -38,7 +38,7 @@ namespace XamarinFormsKatas.Katas_UI.Kata_w
             {
                 AControl.IsVisible = true;
             }
-            Navigation.PushAsync(new Katas_UI.Kata_w.ElementControl1(EControl, LControl, BControl, AControl));
+            //Navigation.PushAsync(new Katas_UI.Kata_w.ElementControl1(EControl, LControl, BControl, AControl));
         }
     }
 }
