@@ -14,7 +14,28 @@ namespace XamarinFormsKatas.Katas_UI.Kata_j
 	{
 		public KataJ ()
 		{
-			InitializeComponent ();
+            user1 = User.Text;
+            pass1= Pass.Text;
+            InitializeComponent ();
 		}
-	}
+        string user1;
+        string pass1;
+        private void Accept_Clicked(object sender, EventArgs e)
+        {
+            if (String.IsNullOrEmpty(user1))
+            {
+                Entry errorcito = new Entry();
+                errorcito.Text = "No dejes vacio el user";
+                contenedor.Children.Add(errorcito);
+            }
+            if (String.IsNullOrEmpty(pass1))
+            {
+                Entry errorcito = new Entry();
+                errorcito.Text = "No dejes vacia la contraseña";
+                contenedor.Children.Add(errorcito);
+            }
+
+        }
+
+    }
 }

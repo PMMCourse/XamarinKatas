@@ -3,10 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinFormsKatas.Katas_UI.Kata_j.KataJ">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout x:Name="contenedor">
+            <Entry x:Name="User" Keyboard="Default" WidthRequest="400"/>
+            <Entry x:Name="Pass" Keyboard="Default" WidthRequest="400"/>
+            <Button x:Name="Accept" Text="Acceder" Clicked="Accept_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

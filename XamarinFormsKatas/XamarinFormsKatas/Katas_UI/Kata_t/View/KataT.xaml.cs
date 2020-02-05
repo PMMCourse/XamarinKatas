@@ -6,15 +6,17 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinFormsKatas.Katas_UI.Kata_r.ViewModel;
 
-namespace XamarinFormsKatas.Katas_UI.Kata_d
+namespace XamarinFormsKatas.Katas_UI.Kata_t
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class KataD : ContentPage
+	public partial class KataT : ContentPage
 	{
-		public KataD ()
+		public KataT ()
 		{
 			InitializeComponent ();
-		}
+            BindingContext = new MainViewModel();
+        }
 	}
 }

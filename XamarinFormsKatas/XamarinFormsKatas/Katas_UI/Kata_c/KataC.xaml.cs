@@ -12,7 +12,8 @@ namespace XamarinFormsKatas.Katas_UI.Kata_c
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class KataC : ContentPage
 	{
-		public KataC ()
+
+        public KataC ()
 		{
 			InitializeComponent ();
 		}

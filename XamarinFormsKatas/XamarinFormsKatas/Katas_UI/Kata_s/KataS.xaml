@@ -4,9 +4,15 @@
              x:Class="XamarinFormsKatas.Katas_UI.Kata_s.KataS">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <FlexLayout Direction="Row" VerticalOptions="FillAndExpand">
+                <BoxView BackgroundColor="Red" FlexLayout.Grow="1"/>
+                <BoxView BackgroundColor="Black" FlexLayout.Grow="1"/>
+                
+            </FlexLayout>
+            <FlexLayout Direction="Row" VerticalOptions="FillAndExpand">
+                <BoxView BackgroundColor="Orange" FlexLayout.Grow="1"/>
+                <BoxView BackgroundColor="Green" FlexLayout.Grow="1"/>
+            </FlexLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
