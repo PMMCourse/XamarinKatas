@@ -11,7 +11,7 @@ namespace XamarinFormsKatas
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new Katas_UI.Kata_a.KataA());
         }
 
         protected override void OnStart()
@@ -28,5 +28,6 @@ namespace XamarinFormsKatas
         {
             // Handle when your app resumes
         }
+        public static MasterDetailPage MasterKataC { get; set; }
     }
 }

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XamarinFormsKatas.Katas_UI.Kata_a.KataA">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Button Text="kata b"
+                    x:Name="buttonKataB"
+                    Clicked="buttonKataB_Clicked"/>
+                <Button Text="kata C"
+                    x:Name="buttonKataC"
+                    Clicked="buttonKataC_Clicked"/>
+                <Button Text="kata D"
+                    x:Name="buttonKataD"
+                    Clicked="buttonKataD_Clicked"/>
+                <Button Text="kata E"
+                    x:Name="buttonKataE"
+                    Clicked="buttonKataE_Clicked"/>
+                <Button Text="kata F"
+                    x:Name="buttonKataF"
+                    Clicked="buttonKataF_Clicked"/>
+                <Button Text="kata G"
+                    x:Name="buttonKataG"
+                    Clicked="buttonKataG_Clicked"/>
+                <Button Text="kata H"
+                    x:Name="buttonKataH"
+                    Clicked="buttonKataH_Clicked"/>
+                <Button Text="kata I"
+                    x:Name="buttonKataI"
+                    Clicked="buttonKataI_Clicked"/>
+                <Button Text="kata J"
+                    x:Name="buttonKataJ"
+                    Clicked="buttonKataJ_Clicked"/>
+                <Button Text="kata K"
+                    x:Name="buttonKataK"
+                    Clicked="buttonKataK_Clicked"/>
+                <Button Text="kata L"
+                    x:Name="buttonKataL"
+                    Clicked="buttonKataL_Clicked"/>
+                <Button Text="kata M"
+                    x:Name="buttonKataM"
+                    Clicked="buttonKataM_Clicked"/>
+                <Button Text="kata N"
+                    x:Name="buttonKataN"
+                    Clicked="buttonKataN_Clicked"/>
+                <Button Text="kataO"
+                    x:Name="buttonKataO"
+                    Clicked="buttonKataO_Clicked"/>
+                <Button Text="kata P"
+                    x:Name="buttonKataP"
+                    Clicked="buttonKataP_Clicked"/>
+                <Button Text="kata Q"
+                    x:Name="buttonKataQ"
+                    Clicked="buttonKataQ_Clicked"/>
+                <Button Text="kata R"
+                    x:Name="buttonKataR"
+                    Clicked="buttonKataR_Clicked"/>
+                <Button Text="kata S"
+                    x:Name="buttonKataS"
+                    Clicked="buttonKataS_Clicked"/>
+                <Button Text="kata T"
+                    x:Name="buttonKataT"
+                    Clicked="buttonKataT_Clicked"/>
+                <Button Text="kata U"
+                    x:Name="buttonKataU"
+                    Clicked="buttonKataU_Clicked"/>
+                <Button Text="kata V"
+                    x:Name="buttonKataV"
+                    Clicked="buttonKataV_Clicked"/>
+                <Button Text="kata W"
+                    x:Name="buttonKataW"
+                    Clicked="buttonKataW_Clicked"/>
+                <Button Text="kata X"
+                    x:Name="buttonKataX"
+                    Clicked="buttonKataX_Clicked"/>
+                <Button Text="kata Y"
+                    x:Name="buttonKataY"
+                    Clicked="buttonKataY_Clicked"/>
+                <Button Text="kata Z"
+                    x:Name="buttonKataZ"
+                    Clicked="buttonKataZ_Clicked"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
