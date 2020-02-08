@@ -33,6 +33,7 @@
                 <Button Text="Kata X" x:Name="btnX"/>
                 <Button Text="Kata Y" x:Name="btnY"/>
                 <Button Text="Kata Z" x:Name="btnZ"/>
+                <Button Text="Kata Logica C" x:Name="btnLC"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
