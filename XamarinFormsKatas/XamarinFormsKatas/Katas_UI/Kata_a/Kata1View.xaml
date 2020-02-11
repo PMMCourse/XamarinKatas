@@ -27,6 +27,10 @@
             <Button x:Name="button_x" Text="X"/>
             <Button x:Name="button_y" Text="Y"/>
             <Button x:Name="button_z" Text="Z"/>
+            <Button x:Name="button_la" Text="lA"/>
+            <Button x:Name="button_lb" Text="lB"/>
+            <Button x:Name="button_lc" Text="lC"/>
+            <Button x:Name="button_ld" Text="lD"/>
         </StackLayout>
     </ScrollView>
 </ContentPage>
