@@ -1,12 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
              x:Class="XamarinFormsKatas.Katas_UI.Kata_n.KataN">
-    <ContentPage.Content>
+    <!--Pages can be added as references or inline-->
+    <ContentPage Title="Tab 1">
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Pagina1" FontSize="Medium" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
         </StackLayout>
-    </ContentPage.Content>
-</ContentPage>
+    </ContentPage>
+    <ContentPage Title="Tab2">
+        <StackLayout>
+            <Label Text="Pagina 2" FontSize="Micro" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Tab3">
+        <StackLayout>
+            <Label Text="Pagina 3" FontSize="Large" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>

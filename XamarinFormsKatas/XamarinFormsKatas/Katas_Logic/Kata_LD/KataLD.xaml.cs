@@ -15,6 +15,7 @@ namespace XamarinFormsKatas.Katas_Logic.Kata_LD
 		public KataLD ()
 		{
 			InitializeComponent ();
+			BindingContext = new MainViewModel(Navigation);
 		}
 	}
 }

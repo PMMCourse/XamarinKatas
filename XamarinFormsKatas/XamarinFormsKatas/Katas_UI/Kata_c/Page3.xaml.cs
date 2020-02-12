@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace XamarinFormsKatas.Katas_UI.Kata_n {
+namespace XamarinFormsKatas.Katas_UI.Kata_c {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class KataN : TabbedPage {
-        public KataN() {
+    public partial class Page3 : ContentPage {
+        public Page3() {
             InitializeComponent();
         }
     }

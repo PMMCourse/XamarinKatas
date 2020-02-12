@@ -2,4 +2,35 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinFormsKatas.Katas.Kata1.Kata1View">
+    <ScrollView>
+        <StackLayout>
+            <Button x:Name="button_b" Text="B"/>
+            <Button x:Name="button_c" Text="C"/>
+            <Button x:Name="button_d" Text="D, E y F"/>
+            <Button x:Name="button_g" Text="G"/>
+            <Button x:Name="button_h" Text="H"/>
+            <Button x:Name="button_i" Text="I"/>
+            <Button x:Name="button_j" Text="J"/>
+            <Button x:Name="button_k" Text="K"/>
+            <Button x:Name="button_l" Text="L"/>
+            <Button x:Name="button_m" Text="M"/>
+            <Button x:Name="button_n" Text="N"/>
+            <Button x:Name="button_o" Text="O"/>
+            <Button x:Name="button_p" Text="P"/>
+            <Button x:Name="button_q" Text="Q"/>
+            <Button x:Name="button_r" Text="R"/>
+            <Button x:Name="button_s" Text="S"/>
+            <Button x:Name="button_t" Text="T"/>
+            <Button x:Name="button_u" Text="U"/>
+            <Button x:Name="button_v" Text="V"/>
+            <Button x:Name="button_w" Text="W"/>
+            <Button x:Name="button_x" Text="X"/>
+            <Button x:Name="button_y" Text="Y"/>
+            <Button x:Name="button_z" Text="Z"/>
+            <Button x:Name="button_la" Text="lA"/>
+            <Button x:Name="button_lb" Text="lB"/>
+            <Button x:Name="button_lc" Text="lC"/>
+            <Button x:Name="button_ld" Text="lD"/>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>
