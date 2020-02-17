@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinFormsKatas.Katas_Logic.Kata_LA;
 
 namespace XamarinFormsKatas.Katas_Logic.Kata_LE
 {
@@ -15,6 +16,12 @@ namespace XamarinFormsKatas.Katas_Logic.Kata_LE
 		public KataLE ()
 		{
 			InitializeComponent ();
+			BindingContext = new KataLeViewModel();
+		}
+
+		private void ColorTextChanged(object sender, TextChangedEventArgs e)
+		{
+			(BindingContext as KataLeViewModel).BlendColorsCommand.Execute(null);
 		}
 	}
 }
