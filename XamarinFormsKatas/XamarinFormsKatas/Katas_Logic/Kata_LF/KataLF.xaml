@@ -4,9 +4,26 @@
              x:Class="XamarinFormsKatas.Katas_Logic.Kata_LF.KataLF">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <ListView x:Name="listview" ItemsSource="{Binding Deportistas}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <Label Grid.Column ="0" Text="{Binding Deporte}"></Label>
+                                <Label Grid.Column ="1" Text="{Binding Edad}"></Label>
+                                <Label Grid.Column ="2" Text="{Binding Puntuacion}"></Label>
+                                <Label Grid.Column ="3" Text="{Binding Sexo}"></Label>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

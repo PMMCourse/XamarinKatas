@@ -4,9 +4,10 @@
              x:Class="XamarinFormsKatas.Katas_Logic.Kata_LI.Kata_LI">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Entry x:Name="numTelefono">
+
+            </Entry>
+            <Button Text="LLamar" x:Name="llamar"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -3,10 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinFormsKatas.Katas_UI.Kata_l.KataL">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <StackLayout.GestureRecognizers>
+                <SwipeGestureRecognizer Direction="Left" Swiped="Swiped_L"/>
+                <SwipeGestureRecognizer Direction="Right" Swiped="Swiped_R"/>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                <PinchGestureRecognizer PinchUpdated="PinchGestureRecognizer_PinchUpdated"/>
+            </StackLayout.GestureRecognizers>
+            <Label x:Name="labelControl" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" FontSize="30"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

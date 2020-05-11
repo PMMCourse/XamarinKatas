@@ -7,11 +7,12 @@ namespace XamarinFormsKatas
 {
     public partial class App : Application
     {
+        public static MasterDetailPage MasterDetail { get; set; }
         public App()
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage( new Katas_UI.Kata_a.KataA());
         }
 
         protected override void OnStart()

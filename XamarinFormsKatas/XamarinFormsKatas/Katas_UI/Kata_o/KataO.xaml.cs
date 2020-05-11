@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +16,21 @@ namespace XamarinFormsKatas.Katas_UI.Kata_o
 		public KataO ()
 		{
 			InitializeComponent ();
-		}
-	}
+            this.Disappearing += OnBackButtonPressed;
+        }
+        private void OnBackButtonPressed(object sender, EventArgs e)
+        {
+            Device.BeginInvokeOnMainThread(async () =>
+            {
+                var resultado = await this.DisplayAlert("ALERTA!", "¿Seguro que quieres salir?", "Salir", "Permanecer en esta pagina");
+                if (resultado == true)
+                {
+                    //await this.Navigation.PopAsync();
+                    Process.GetCurrentProcess().CloseMainWindow();
+                }
+                
+            });
+            
+        }
+    }
 }
