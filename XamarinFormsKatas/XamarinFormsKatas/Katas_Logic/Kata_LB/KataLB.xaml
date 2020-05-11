@@ -3,8 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinFormsKatas.Katas_Logic.Kata_LB.KataLB">
     <ContentPage.Content>
-        <StackLayout>
-            
+        <StackLayout x:Name="StackLayout1">
+            <ActivityIndicator x:Name="ActivityIndicator1"></ActivityIndicator>
+            <ScrollView Orientation="Both">
+                <StackLayout>
+                    <ListView x:Name="Lista" WidthRequest="2000" HeightRequest="4000">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <TextCell Text="{Binding Tostring}"></TextCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

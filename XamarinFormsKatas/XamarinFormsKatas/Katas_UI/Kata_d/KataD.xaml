@@ -2,13 +2,17 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinFormsKatas.Katas_UI.Kata_d.KataD">
-    <StackLayout>
-        <ListView x:Name="ListaNombres">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <TextCell Text="{Binding Nombre}" Detail="{Binding Edad}"/>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-    </StackLayout>
+    <ListView x:Name="ListaNombres">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout BackgroundColor="#eee" Orientation="Vertical">
+                        <Label Text="{Binding Nombre}"/>
+                        <Label Text="{Binding Edad}"/>
+                        <Image Source="{Binding Img}" HeightRequest="336" WidthRequest="702"/>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
 </ContentPage>
